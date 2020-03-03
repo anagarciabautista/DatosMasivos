@@ -1,44 +1,45 @@
 <H1 aling="center"> 
 Tecnológico Nacional De México Instituto Tecnológico De Tijuana
 Subdirección Académica
-Departamento De Sistemas Y Computación
+Departamento De Sistemas Y Computación</H1>
 
-SEMESTRE:
-Enero – junio 2020
+<H1 aling="center">SEMESTRE:</H1>
+<H3 aling="center">Enero – junio 2020</H3>
 
-CARRERA:
-Ing. Tecnologías De Información Y Comunicación
+<H1 aling="center">CARRERA:</H1>
+<H3 aling="center">Ing. Tecnologías De Información Y Comunicación</H3>
 
-MATERIA:
-Datos Masivos
+<H1 aling="center">MATERIA:</H1>
+<H3 aling="center">Datos Masivos</H3>
 
-UNIDAD A EVALUAR:
-Unidad 1
+<H1 aling="center">UNIDAD A EVALUAR:</H1>
+<H3 aling="center">Unidad 1</H3>
 
-NOMBRE DEL ALUMNO:
-Garcia Bautista Ana Laura # 15210793
-Enciso Maldonado Aileen Yurely #15210329 
+<H1 aling="center">NOMBRE DEL ALUMNO:</H1>
+<H3 aling="center">Garcia Bautista Ana Laura # 15210793
+Enciso Maldonado Aileen Yurely #15210329</H3> 
 
-MAESTRO (A):
-Romero Hernández José Christian </H1>
+<H1 aling="center">MAESTRO (A):</H1>
+<H3 aling="center">Romero Hernández José Christian </H3>
 
 
 <H1 aling="center">
- Evaluación 1 
+ Evaluación 1 </h1>
 
- Práctica 1
+ <H3 aling="center">Práctica 1
 
  Garcia Bautista Ana Laura #15210793
  
- Enciso Maldonado Aileen Yurely #15210329
+ Enciso Maldonado Aileen Yurely #15210329</H3>
 
+ <H5 aling="center">
  1. Desarrolla un algoritmo en escala que calcula el radio de un círculo.
  2. Desarrolle un algoritmo en scala que me diga si un número es un número primo.
  3. Dada la variable bird = "tweet", use la interpolación de cadena para imprimir "Estoy escribiendo   un tweet".
  4. Dada la variable mensaje = "Hola Luke soy tu padre!" usa slilce para extraer la secuencia "Luke".
  5. Cual es la diferencia en valor y una variable en escala?
  6.Respuesta :value(val) se le asigna un valor definido y no puede ser cambiado, en una variable
- 6. Dada la tupla (2,4,5,1,2,3,3.1416,23) devuelve el número 3.1416.</H1>
+ 6. Dada la tupla (2,4,5,1,2,3,3.1416,23) devuelve el número 3.1416.</H5>
  
 <h1> Codigo </h1>
 
