@@ -41,33 +41,33 @@ Departamento De Sistemas Y Computación</H1>
 
 [3.-5 algoritmos de la secuencia de Fibonacci 1](#5-algoritmos-de-la-secuencia-de-Fibonacci-1) 
 
-[3.1.-5 algoritmos de la secuencia de Fibonacci 2](#5 algoritmos de la secuencia de Fibonacci-2) 
+[3.1.-5 algoritmos de la secuencia de Fibonacci 2](#5-algoritmos-de-la-secuencia-de-Fibonacci-2) 
 
-[3.2.-5 algoritmos de la secuencia de Fibonacci 3](#5 algoritmos de la secuencia de Fibonacci-3) 
+[3.2.-5 algoritmos de la secuencia de Fibonacci 3](#5-algoritmos-de-la-secuencia-de-Fibonacci-3) 
 
-[3.3.-5 algoritmos de la secuencia de Fibonacci 4](#5 algoritmos de la secuencia de Fibonacci-4) 
+[3.3.-5 algoritmos de la secuencia de Fibonacci 4](#5-algoritmos-de-la-secuencia-de-Fibonacci-4) 
 
-[3.4.-5 algoritmos de la secuencia de Fibonacci 5](#5 algoritmos de la secuencia de Fibonacci-5) 
+[3.4.-5 algoritmos de la secuencia de Fibonacci 5](#5-algoritmos-de-la-secuencia-de-Fibonacci-5) 
 
-[4.-Funciones De DF 1](#Funciones De DF-1)
+[4.-Funciones De DF 1](#Funciones-De-DF-1)
 
-[4.1.-Funciones De DF 2](#Funciones De DF-2) 
+[4.1.-Funciones De DF 2](#Funciones-De-DF-2) 
 
-[4.2.-Funciones De DF 3](#Funciones De DF-3) 
+[4.2.-Funciones De DF 3](#Funciones-De-DF-3) 
 
-[4.3.-Funciones De DF 4](#Funciones De DF-4) 
+[4.3.-Funciones De DF 4](#Funciones-De-DF-4) 
 
-[4.4.-Funciones De DF 5](#Funciones De DF-5) 
+[4.4.-Funciones De DF 5](#Funciones-De-DF-5) 
 
-[4.5.-Funciones De DF 6](#Funciones De DF-6) 
+[4.5.-Funciones De DF 6](#Funciones-De-DF-6) 
 
-[4.6.-Funciones De DF 7](#Funciones De DF-7) 
+[4.6.-Funciones De DF 7](#Funciones-De-DF-7) 
 
-[4.7.-Funciones De DF 8](#Funciones De DF-8) 
+[4.7.-Funciones De DF 8](#Funciones-De-DF-8) 
 
-[5.-TRABAJOS DE INVESTIGACION 1](#TRABAJOS DE INVESTIGACION-5)
+[5.-TRABAJOS DE INVESTIGACION 1](#TRABAJOS-DE-INVESTIGACION-5)
 
-[6.-TRABAJOS DE INVESTIGACION 2](#TRABAJOS DE INVESTIGACION-6)
+[6.-TRABAJOS DE INVESTIGACION 2](#TRABAJOS-DE-INVESTIGACION-6)
 
  
 
