@@ -39,7 +39,7 @@ Departamento De Sistemas Y Computación</H1>
 
 [2.-Pracica 2](#Practica-2) 
 
-[3.-5 algoritmos de la secuencia de Fibonacci 1](#5 algoritmos de la secuencia de Fibonacci-1) 
+[3.-5 algoritmos de la secuencia de Fibonacci 1](#5-algoritmos-de-la-secuencia-de-Fibonacci-1) 
 
 [3.1.-5 algoritmos de la secuencia de Fibonacci 2](#5 algoritmos de la secuencia de Fibonacci-2) 
 
