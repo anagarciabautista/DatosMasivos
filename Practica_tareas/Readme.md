@@ -3,8 +3,7 @@
 Tecnológico Nacional De México Instituto Tecnológico De Tijuana
 Subdirección Académica
 Departamento De Sistemas Y Computación</H1>
-<H3 aling="center">SEMESTRE:</H3>
-<H4 aling="center">Enero – junio 2020</H4>
+<H3 aling="center">SEMESTRE:</H3><H4 aling="center">Enero – junio 2020</H4>
 <H3 aling="center">CARRERA:</H3>
 <H4 aling="center">Ing. Tecnologías De Información Y Comunicación</H4>
 <H3 aling="center">MATERIA:</H3>
