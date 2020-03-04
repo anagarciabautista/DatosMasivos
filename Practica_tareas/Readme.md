@@ -4,25 +4,27 @@ Tecnológico Nacional De México Instituto Tecnológico De Tijuana
 Subdirección Académica
 Departamento De Sistemas Y Computación</H1>
 
-<H2 aling="center">SEMESTRE:</H2>
-<H3 aling="center">Enero – junio 2020</H3>
+<H3 aling="center">SEMESTRE:</H3>
+<H4 aling="center">Enero – junio 2020</H4>
 
-<H2 aling="center">CARRERA:</H2>
-<H3 aling="center">Ing. Tecnologías De Información Y Comunicación</H3>
+<H3 aling="center">CARRERA:</H3>
+<H4 aling="center">Ing. Tecnologías De Información Y Comunicación</H4>
 
-<H2 aling="center">MATERIA:</H2>
-<H3 aling="center">Datos Masivos</H3>
+<H3 aling="center">MATERIA:</H3>
+<H4 aling="center">Datos Masivos</H4>
 
-<H2 aling="center">UNIDAD A EVALUAR:</H2>
-<H3 aling="center">Unidad 1</H3>
+<H3 aling="center">UNIDAD A EVALUAR:</H3>
+<H4 aling="center">Unidad 1</H4>
 
-<H2 aling="center">NOMBRE DEL ALUMNO:</H2>
-<H3 aling="center">
+<H3 aling="center">NOMBRE DEL ALUMNO:</H3>
+<H4 aling="center">
+ 
  Garcia Bautista Ana Laura # 15210793
- Enciso Maldonado Aileen Yurely #15210329</H3> 
+ 
+ Enciso Maldonado Aileen Yurely #15210329</H4> 
 
-<H2 aling="center">MAESTRO (A):</H2>
-<H3 aling="center">Romero Hernández José Christian </H3>
+<H3 aling="center">MAESTRO (A):</H3>
+<H4 aling="center">Romero Hernández José Christian </H4>
 
 <H1 aling="center">
  Evaluación 1 </h1>
