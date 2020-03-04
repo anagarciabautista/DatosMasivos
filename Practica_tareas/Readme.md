@@ -26,7 +26,7 @@ Departamento De Sistemas Y Computación</H1>
 <H3 aling="center">MAESTRO (A):</H3>
 <H4 aling="center">Romero Hernández José Christian </H4>
 
-<H3 aling="center> Index </h3>
+<p> Index </p>
            
  <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1" target="_blank">Unidad 1</a></li>
    <ul>
