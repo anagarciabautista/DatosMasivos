@@ -433,8 +433,7 @@ Departamento De Sistemas Y Computación</H1>
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
   <H5 aling="center">
-  Similar a la cláusula SQL "GROUP BY", la función Spark groupBy () se usa para recopilar datos idénticos en grupos en DataFrame /      Dataset y realizar funciones agregadas en los datos agrupados. En este artículo, explicaré groupBy()ejemplos con el lenguaje Scala.
-</H5
+  Similar a la cláusula SQL "GROUP BY", la función Spark groupBy () se usa para recopilar datos idénticos en grupos en DataFrame /      Dataset y realizar funciones agregadas en los datos agrupados. En este artículo, explicaré groupBy()ejemplos con el lenguaje Scala</H5>
 
      import org.apache.spark.sql.SparkSession
     val spark = SparkSession.builder().getOrCreate()
