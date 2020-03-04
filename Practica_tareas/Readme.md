@@ -3,30 +3,25 @@
 Tecnológico Nacional De México Instituto Tecnológico De Tijuana
 Subdirección Académica
 Departamento De Sistemas Y Computación</H1>
-
 <H3 aling="center">SEMESTRE:</H3>
 <H4 aling="center">Enero – junio 2020</H4>
-
 <H3 aling="center">CARRERA:</H3>
 <H4 aling="center">Ing. Tecnologías De Información Y Comunicación</H4>
-
 <H3 aling="center">MATERIA:</H3>
 <H4 aling="center">Datos Masivos</H4>
-
 <H3 aling="center">UNIDAD A EVALUAR:</H3>
 <H4 aling="center">Unidad 1</H4>
-
 <H3 aling="center">NOMBRE DEL ALUMNO:</H3>
 <H4 aling="center">
  
  Garcia Bautista Ana Laura # 15210793
  
  Enciso Maldonado Aileen Yurely #15210329</H4> 
-
 <H3 aling="center">MAESTRO (A):</H3>
 <H4 aling="center">Romero Hernández José Christian </H4>
 
-<p> Seccion De Unidades</p>       
+<H3> Seccion De Unidades</H3>  
+
  <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1" target="_blank">Unidad 1</a></li>
  <ul>
  
@@ -443,7 +438,7 @@ Departamento De Sistemas Y Computación</H1>
   Similar a la cláusula SQL "GROUP BY", la función Spark groupBy () se usa para recopilar datos idénticos en grupos en DataFrame /      Dataset y realizar funciones agregadas en los datos agrupados. En este artículo, explicaré groupBy()ejemplos con el lenguaje Scala.
 </H5
 
-import org.apache.spark.sql.SparkSession
+     import org.apache.spark.sql.SparkSession
     val spark = SparkSession.builder().getOrCreate()
     val df = spark.read.option("header", "true").option("inferSchema","true")csv("Sales.csv")
 
