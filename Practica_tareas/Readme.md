@@ -26,19 +26,57 @@ Departamento De Sistemas Y Computación</H1>
 <H3 aling="center">MAESTRO (A):</H3>
 <H4 aling="center">Romero Hernández José Christian </H4>
 
-<p> Index </p>
-           
+<p> Seccion De Unidades</p>       
  <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1" target="_blank">Unidad 1</a></li>
-   <ul>
-
-  <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1/Evaluacion" target="_blank">Evaluacion</a></li>
+ <ul>
  
+ <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1/Evaluacion" target="_blank">Evaluacion</a></li>
  </u>
+ 
+ <H3>Tabla de contenido</H3>
+
+[1.-Practica 1](#Practica-1) 
+
+[2.-Pracica 2](#Practica-2) 
+
+[3.-5 algoritmos de la secuencia de Fibonacci 1](#5 algoritmos de la secuencia de Fibonacci-1) 
+
+[3.1.-5 algoritmos de la secuencia de Fibonacci 2](#5 algoritmos de la secuencia de Fibonacci-2) 
+
+[3.2.-5 algoritmos de la secuencia de Fibonacci 3](#5 algoritmos de la secuencia de Fibonacci-3) 
+
+[3.3.-5 algoritmos de la secuencia de Fibonacci 4](#5 algoritmos de la secuencia de Fibonacci-4) 
+
+[3.4.-5 algoritmos de la secuencia de Fibonacci 5](#5 algoritmos de la secuencia de Fibonacci-5) 
+
+[4.-Funciones De DF 1](#Funciones De DF-1)
+
+[4.1.-Funciones De DF 2](#Funciones De DF-2) 
+
+[4.2.-Funciones De DF 3](#Funciones De DF-3) 
+
+[4.3.-Funciones De DF 4](#Funciones De DF-4) 
+
+[4.4.-Funciones De DF 5](#Funciones De DF-5) 
+
+[4.5.-Funciones De DF 6](#Funciones De DF-6) 
+
+[4.6.-Funciones De DF 7](Funciones De DF-7) 
+
+[4.7.-Funciones De DF 8](#Funciones De DF-8) 
+
+[5.-TRABAJOS DE INVESTIGACION 1](#TRABAJOS DE INVESTIGACION-1)
+
+[6.-TRABAJOS DE INVESTIGACION 2](#TRABAJOS DE INVESTIGACION-2)
+
+ 
 
 <H1 aling="center">
  Evaluación 1 </h1>
 
- <H3 aling="center">Práctica 1
+# Practica 1
+  
+ <H3 aling="center">
 
  Garcia Bautista Ana Laura #15210793
  
@@ -108,12 +146,12 @@ Departamento De Sistemas Y Computación</H1>
     var  x  = ( 2 , 4 , 5 , 1 , 2 , 3 , 3.1416 , 23 )
     println (x._7)</H4>
 
- <H3 aling="center">Práctica 2</H3>
- 
+# Practica 2
+  
  <H4 aling="center">
-  Garcia Bautista Ana Laura #15210793
+ Garcia Bautista Ana Laura #15210793
  
-  Enciso Maldonado Aileen Yurely #15210329</H4>
+ Enciso Maldonado Aileen Yurely #15210329</H4>
 
 <H5 aling="center">
 1. Crea una lista llamad "lista" con los elementos "rojo", "blanco", "negro"
@@ -156,9 +194,8 @@ Departamento De Sistemas Y Computación</H1>
   
   <H1 aling="center">AlGORTIMOS DE FIBONACCI</H1>
    
-  <H2 aling="center"> 
-  5 algoritmos de la secuencia de Fibonacci.</H2>
- 
+   
+ # 5 algoritmos de la secuencia de Fibonacci 1 
   <H3 aling="center">
   Garcia Bautista Ana Laura #15210793
  
@@ -202,8 +239,7 @@ Departamento De Sistemas Y Computación</H1>
  
  <H1 aling="center">AlGORTIMOS DE FIBONACCI</H1>
    
-  <H2 aling="center"> 
-  5 algoritmos de la secuencia de Fibonacci.</H2>
+ # 5 algoritmos de la secuencia de Fibonacci 2.
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -236,8 +272,7 @@ Departamento De Sistemas Y Computación</H1>
       
   <H1 aling="center">AlGORTIMOS DE FIBONACCI</H1>
    
-  <H2 aling="center"> 
-  5 algoritmos de la secuencia de Fibonacci.</H2>
+  # 5 algoritmos de la secuencia de Fibonacci 3
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -270,8 +305,7 @@ Departamento De Sistemas Y Computación</H1>
    
   <H1 aling="center">AlGORTIMOS DE FIBONACCI</H1>
    
-  <H2 aling="center"> 
-  5 algoritmos de la secuencia de Fibonacci.</H2>
+  # 5 algoritmos de la secuencia de Fibonacci 4
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -339,9 +373,8 @@ Departamento De Sistemas Y Computación</H1>
 
 
   <H1 aling="center">AlGORTIMOS DE FIBONACCI</H1>
-   
-  <H2 aling="center"> 
-  5 algoritmos de la secuencia de Fibonacci.</H2>
+    
+ # 5 algoritmos de la secuencia de Fibonacci 5
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -370,7 +403,7 @@ Departamento De Sistemas Y Computación</H1>
    
     función ( 10 )
     
-  <H1 aling="center">EXAMEN PRUEBA</H1>
+  # EXAMEN PRUEBA 1
    
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -399,8 +432,7 @@ Departamento De Sistemas Y Computación</H1>
   
   <H1 aling="center">Practicas</H1>
    
-  <H2 aling="center"> 
-  Funciones De DF.</H2>
+  # Funciones De DF 1
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -468,8 +500,7 @@ Departamento De Sistemas Y Computación</H1>
  
  <H1 aling="center">Practicas</H1>
    
-  <H2 aling="center"> 
-  Funciones De DF.</H2>
+  # Funciones De DF 2
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -542,8 +573,7 @@ Departamento De Sistemas Y Computación</H1>
  
   <H1 aling="center">Practicas</H1>
    
-  <H2 aling="center"> 
-  Funciones De DF.</H2>
+  # Funciones De DF 3
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -572,8 +602,7 @@ Departamento De Sistemas Y Computación</H1>
 
  <H1 aling="center">Practicas</H1>
    
-  <H2 aling="center"> 
-  Funciones De DF.</H2>
+ # Funciones De DF 3
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -586,9 +615,8 @@ Departamento De Sistemas Y Computación</H1>
          println("Step 1: How to initialize a Sequence of donuts")
          val donuts: Seq[String] = Seq("Plain Donut", "Strawberry Donut", "Glazed Donut")
          println(s"Elements of donuts = $donuts"
- 
-  <H2 aling="center"> 
-  Funciones De DF.</H2>
+  
+ # Funciones De DF 4
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -601,8 +629,7 @@ Departamento De Sistemas Y Computación</H1>
      val donutsGroup: Map[Char, Seq[String]] = donuts.groupBy(_.charAt(0))
      println(s"Group elements in the donut sequence by the first letter of the donut name = $donutsGroup")
 
- <H2 aling="center"> 
-  Funciones De DF.</H2>
+ # Funciones De DF 5
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -615,8 +642,8 @@ clase de caso para representar objetos donut.</H5>
       println("\nStep 3: How to create a case class to represent Donut objects")
       case class Donut(name: String, price: Double)
       
-  <H2 aling="center"> 
-  Funciones De DF.</H2>
+      
+  # Funciones De DF 6
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -630,8 +657,8 @@ Clase de caso Donut del Paso 3 y crear una secuencia de elementos donut de tipo 
     val donuts2: Seq[Donut] = Seq(Donut("Plain Donut", 1.5), Donut("Strawberry Donut", 2.0), Donut("Glazed Donut", 2.5))
     println(s"Elements of donuts2 = $donuts2")
 
-  <H2 aling="center"> 
-  Funciones De DF.</H2>
+   
+  # Funciones De DF 7
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -646,8 +673,7 @@ Clase de caso Donut del Paso 3 y crear una secuencia de elementos donut de tipo 
      val donutsGroup2: Map[String, Seq[Donut]] = donuts2.groupBy(_.name)
      println(s"Group element in the sequence of type Donut grouped by the donut name = $donutsGroup2"
 
-  <H2 aling="center"> 
-  Funciones De DF.</H2>
+  # Funciones De DF 8
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -718,8 +744,7 @@ Clase de caso Donut del Paso 3 y crear una secuencia de elementos donut de tipo 
     //20 Choose the volume column max
     df.select(max("Volume")).show() 
 
- <H1 aling="center"> 
-  TRABAJOS DE INVESTIGACION.</H1>
+ # TRABAJOS DE INVESTIGACION 1
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -751,8 +776,8 @@ A large variance indicates that numbers in the set are far from the mean and fro
 </center>
    
   
-  <H1 aling="center"> 
-  TRABAJOS DE INVESTIGACION.</H1>
+   
+  # TRABAJOS DE INVESTIGACION 2
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
