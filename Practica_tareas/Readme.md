@@ -61,13 +61,13 @@ Departamento De Sistemas Y Computación</H1>
 
 [4.5.-Funciones De DF 6](#Funciones De DF-6) 
 
-[4.6.-Funciones De DF 7](Funciones De DF-7) 
+[4.6.-Funciones De DF 7](#Funciones De DF-7) 
 
 [4.7.-Funciones De DF 8](#Funciones De DF-8) 
 
-[5.-TRABAJOS DE INVESTIGACION 1](#TRABAJOS DE INVESTIGACION-1)
+[5.-TRABAJOS DE INVESTIGACION 1](#TRABAJOS DE INVESTIGACION-5)
 
-[6.-TRABAJOS DE INVESTIGACION 2](#TRABAJOS DE INVESTIGACION-2)
+[6.-TRABAJOS DE INVESTIGACION 2](#TRABAJOS DE INVESTIGACION-6)
 
  
 
