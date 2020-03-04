@@ -34,15 +34,15 @@ Departamento De Sistemas Y Computación</H1>
 
 [2.-Pracica 2](#Practica-2) 
 
-[3.-5 algoritmos de la secuencia de Fibonacci 1](#5-algoritmos-de-la-secuencia-de-Fibonacci-1) 
+[3.-Algoritmos de la secuencia de Fibonacci 1](#Algoritmos-de-la-secuencia-de-Fibonacci-1) 
 
-[3.1.-5 algoritmos de la secuencia de Fibonacci 2](#5-algoritmos-de-la-secuencia-de-Fibonacci-2) 
+[3.1.-Algoritmos de la secuencia de Fibonacci 2](#Algoritmos-de-la-secuencia-de-Fibonacci-2) 
 
-[3.2.-5 algoritmos de la secuencia de Fibonacci 3](#5-algoritmos-de-la-secuencia-de-Fibonacci-3) 
+[3.2.-Algoritmos de la secuencia de Fibonacci 3](#Algoritmos-de-la-secuencia-de-Fibonacci-3) 
 
-[3.3.-5 algoritmos de la secuencia de Fibonacci 4](#5-algoritmos-de-la-secuencia-de-Fibonacci-4) 
+[3.3.-Algoritmos de la secuencia de Fibonacci 4](#Algoritmos-de-la-secuencia-de-Fibonacci-4) 
 
-[3.4.-5 algoritmos de la secuencia de Fibonacci 5](#5-algoritmos-de-la-secuencia-de-Fibonacci-5) 
+[3.4.-Algoritmos de la secuencia de Fibonacci 5](#Algoritmos-de-la-secuencia-de-Fibonacci-5) 
 
 [4.-Funciones De DF 1](#Funciones-De-DF-1)
 
@@ -60,9 +60,9 @@ Departamento De Sistemas Y Computación</H1>
 
 [4.7.-Funciones De DF 8](#Funciones-De-DF-8) 
 
-[5.-TRABAJOS DE INVESTIGACION 1](#TRABAJOS-DE-INVESTIGACION-5)
+[5.-TRABAJO DE INVESTIGACION 1](#TRABAJO-DE-INVESTIGACION-5)
 
-[6.-TRABAJOS DE INVESTIGACION 2](#TRABAJOS-DE-INVESTIGACION-6)
+[6.-TRABAJO DE INVESTIGACION 2](#TRABAJO-DE-INVESTIGACION-6)
 
  
 
@@ -187,10 +187,9 @@ Departamento De Sistemas Y Computación</H1>
     nombres += ("Miguel" -> 23)
       
   
-  <H1 aling="center">AlGORTIMOS DE FIBONACCI</H1>
+  <H1 aling="center">5 AlGORTIMOS DE FIBONACCI</H1>
    
-   
- # 5 algoritmos de la secuencia de Fibonacci 1 
+ # Algoritmos de la secuencia de Fibonacci 1 
   <H3 aling="center">
   Garcia Bautista Ana Laura #15210793
  
@@ -232,9 +231,9 @@ Departamento De Sistemas Y Computación</H1>
     función4 ( 10 )
      
  
- <H1 aling="center">AlGORTIMOS DE FIBONACCI</H1>
+ <H1 aling="center">5 AlGORTIMOS DE FIBONACCI</H1>
    
- # 5 algoritmos de la secuencia de Fibonacci 2.
+ # Algoritmos de la secuencia de Fibonacci 2.
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -265,9 +264,9 @@ Departamento De Sistemas Y Computación</H1>
     }  
      function1 ( 10 )
       
-  <H1 aling="center">AlGORTIMOS DE FIBONACCI</H1>
+  <H1 aling="center">5 AlGORTIMOS DE FIBONACCI</H1>
    
-  # 5 algoritmos de la secuencia de Fibonacci 3
+  # Algoritmos de la secuencia de Fibonacci 3
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -292,15 +291,15 @@ Departamento De Sistemas Y Computación</H1>
        a = b - a
 
        }
- 
+  
         return (a)
       }
        función3 ( 10 )
        
    
-  <H1 aling="center">AlGORTIMOS DE FIBONACCI</H1>
+  <H1 aling="center">5 AlGORTIMOS DE FIBONACCI</H1>
    
-  # 5 algoritmos de la secuencia de Fibonacci 4
+  # Algoritmos de la secuencia de Fibonacci 4
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -367,9 +366,9 @@ Departamento De Sistemas Y Computación</H1>
     Función5 ( 9 )
 
 
-  <H1 aling="center">AlGORTIMOS DE FIBONACCI</H1>
+  <H1 aling="center"> 5 AlGORTIMOS DE FIBONACCI</H1>
     
- # 5 algoritmos de la secuencia de Fibonacci 5
+ # Algoritmos de la secuencia de Fibonacci 5
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -494,7 +493,7 @@ Departamento De Sistemas Y Computación</H1>
       stddev("bonus").as("stddev_bonus"))
     .where(col("sum_bonus") > 50000)
     .show(false)
-   }
+     }
  
  
  <H1 aling="center">Practicas</H1>
@@ -743,14 +742,14 @@ Clase de caso Donut del Paso 3 y crear una secuencia de elementos donut de tipo 
     //20 Choose the volume column max
     df.select(max("Volume")).show() 
 
- # TRABAJOS DE INVESTIGACION 1
+ # TRABAJO DE INVESTIGACION 1
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
   
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
-  <H3 aling="center"> Investigacion 1</H3>
+  <H3 aling="center"> Variance</H3>
    
  <H3 aling="center">
  What Is Variance?</H3> 
@@ -776,14 +775,14 @@ A large variance indicates that numbers in the set are far from the mean and fro
    
   
    
-  # TRABAJOS DE INVESTIGACION 2
+  # TRABAJO DE INVESTIGACION 2
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
   
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
-  <H3 aling="center"> Investigacion 2</H3>
+  <H3 aling="center"> Person Correlation</H3>
    
  <H3 aling="center">
  What does this test do?</H3>
