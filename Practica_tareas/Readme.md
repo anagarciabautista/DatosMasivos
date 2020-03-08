@@ -11,7 +11,7 @@ Systems and Computing Department</H1>
 <H4 aling="center">Big Data</H4>
 <H3 aling="center">UNIT TO EVALUATE:</H3>
 <H4 aling="center">Unit 1</H4>
-<H3 aling="center">Student's nameH3>
+<H3 aling="center">Student's name</H3>
 <H4 aling="center">
  Garcia Bautista Ana Laura # 15210793 
 
@@ -28,7 +28,7 @@ Systems and Computing Department</H1>
  <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1/Evaluacion" target="_blank">Evaluacion</a></li>
  </u>
  
- <H3>Tabla de contenido</H3>
+ <H3>Table of Contents</H3>
 
 [1.-Practice 1](#Practice-1) 
 
@@ -90,7 +90,7 @@ Evaluation 1 </h1>
  
  6.Response: value (val) is assigned a defined value and cannot be changed, in a variable
  
- 6. Given the tuple (2,4,5,1,2,3,3.1416,23) returns the number 3.1416. </H5>
+ 6. Given the tuple (2,4,5,1,2,3,3.1416,23) returns the number 3.1416.</H5>
  
 <h2 Code </h2>
 
@@ -164,7 +164,8 @@ Evaluation 1 </h1>
 
 6 a. Print all map keys
 
-6 b. Add the following value to the map ("Miguel", 23) </H5>
+6 b. Add the following value to the map ("Miguel", 23)</H5>
+
 
      import scala.collection.mutable.ListBuffer
      var lista = collection.mutable.ListBuffer("rojo","blanco","negro")
@@ -191,6 +192,7 @@ Evaluation 1 </h1>
   <H1 aling="center">5 FIBONACCI ALGORTIMS</H1>
    
  # Fibonacci sequence algorithms 1 
+  
   <H3 aling="center">
   Garcia Bautista Ana Laura #15210793
  
@@ -205,7 +207,7 @@ Evaluation 1 </h1>
  
  4.-The vector with space (1) will have a value of one (1) Start pedaling with a for the vector, the
  
- 5.-result will be the variable (n) according to the vector of </H5>
+ 5.-result will be the variable (n) according to the vector of</H5>
     
     def función4  ( n : Int ) :  Doble  =
      
@@ -247,7 +249,7 @@ Evaluation 1 </h1>
  <H5 aling="center"> 
  
 If the number entered in the function is less than 2, the number entered will be returned
- if it is not less than 2, the following will be done the formula is divided into parts to finally create the result </H5>
+ if it is not less than 2, the following will be done the formula is divided into parts to finally create the result</H5>
   
      def función1 ( n : Doble ) :  Doble  =  
     {  
@@ -280,7 +282,7 @@ If the number entered in the function is less than 2, the number entered will be
  the function will give us a result (return) this must be an integer value (Int) A cycle (for) begins where k = 1,
  start cycling until it becomes (n), (n) represents the value that will be entered into the function
  depending on the cycle (for) the variables (b, a) will begin to change their result until the end of the cycle (for)
- the result will be returned with (return) </H5>
+ the result will be returned with (return)</H5>
 
 
      def  function3 ( n : Int ) :  Int  = {
@@ -309,14 +311,13 @@ If the number entered in the function is less than 2, the number entered will be
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
  <H5 aling="center">
-
-4.-In this sixth algorithm a function was added that after having performed the corresponding operations,
+ 4.-In this sixth algorithm a function was added that after having performed the corresponding operations,
  the function will give us a result (return) this must be an integer value with decimal points (Double)
  if the value entered is less than or equal to 0, then that value will be returned Otherwise, it will have
  to perform a series of operations of starting a cycle (while) where the variables will begin to change the value
  depending on the iteration of the cycle if the variable (i) is odd, different operations will be performed
  If the variable (i) is even, different operations will be made, the variable (i) will begin to change the value each
- Once the cycle is entered until you exit the cycle and the sum of (a + b) is returned </H5>
+ Once the cycle is entered until you exit the cycle and the sum of (a + b) is returned</H5>
  
      def función5 ( n : Doble ) :  Doble  =
       {
@@ -379,11 +380,8 @@ If the number entered in the function is less than 2, the number entered will be
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
  <H5 aling="center">
- 
-5.- Recursive descending version
- If the number entered in the function is less than 2, the number entered will be returned
- if it is not less than 2, the function will do a series of sums and the result will return </H5> 
- 
+ 5.- Recursive descending version If the number entered in the function is less than 2, the number entered will be returned
+ if it is not less than 2, the function will do a series of sums and the result will return</H5> 
    
     def   función ( n : Int ) :  Int  =  
     {  
@@ -440,7 +438,7 @@ If the number entered in the function is less than 2, the number entered will be
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
   <H5 aling="center">
-  assimilate to the SQL clause "GROUP BY", the Spark groupBy () function is used to collect identical data in groups in DataFrame / Dataset and perform aggregate functions in the grouped data. In this article, I will explain groupBy () examples with the Scala language </H5>
+  assimilate to the SQL clause "GROUP BY", the Spark groupBy () function is used to collect identical data in groups in DataFrame / Dataset and perform aggregate functions in the grouped data. In this article, I will explain groupBy () examples with the Scala language</H5>
 
      import org.apache.spark.sql.SparkSession
     val spark = SparkSession.builder().getOrCreate()
@@ -500,8 +498,6 @@ If the number entered in the function is less than 2, the number entered will be
     .show(false)
      }
  
- 
- <H1 aling="center">Practicas</H1>
    
   # DF Functions 2
  
@@ -651,7 +647,7 @@ Example of class creation with case class object to represent donut objects. </H
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
 <H5 aling="center">
-Donut case class from Step 3 and create a sequence of donut elements of type Donut. </H5>
+Donut case class from Step 3 and create a sequence of donut elements of type Donut.</H5>
 
      println("\nStep 4: How to create a Sequence of type Donut")
      val donuts2: Seq[Donut] = Seq(Donut("Plain Donut", 1.5), Donut("Strawberry Donut", 2.0), Donut("Glazed Donut", 2.5))
@@ -666,7 +662,7 @@ Donut case class from Step 3 and create a sequence of donut elements of type Don
   Enciso Maldonado Aileen Yurely #15210329</H3>
  
 <H5 aling="center">
- group the donut objects represented by the Donut case class from Step 3 by their name property using the groupBy method </H5>
+ group the donut objects represented by the Donut case class from Step 3 by their name property using the groupBy method</H5>
 
      println(s"\nStep 5: How to group case classes donut objects by the name property")
      val donutsGroup2: Map[String, Seq[Donut]] = donuts2.groupBy(_.name)
