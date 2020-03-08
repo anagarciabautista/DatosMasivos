@@ -4,7 +4,7 @@ National Technological Institute of Mexico Technological Of Tijuana
 Academic Subdirectorate
 Systems and Computing Department</H1>
 
-<H3 aling="center">SEMESTER:</H3><H4 aling="center">Enero – junio 2020</H4>
+<H3 aling="center">SEMESTER:</H3><H4 aling="center">January - June 2020</H4>
 <H3 aling="center">CAREER:</H3>
 <H4 aling="center">Ing. Information and Communication Technologies</H4>
 <H3 aling="center">CLASS:</H3>
@@ -166,6 +166,7 @@ Evaluation 1 </h1>
 
 6 b. Add the following value to the map ("Miguel", 23)</H5>
 
+<h2> Code </h2>
 
      import scala.collection.mutable.ListBuffer
      var lista = collection.mutable.ListBuffer("rojo","blanco","negro")
@@ -208,6 +209,8 @@ Evaluation 1 </h1>
  4.-The vector with space (1) will have a value of one (1) Start pedaling with a for the vector, the
  
  5.-result will be the variable (n) according to the vector of</H5>
+ 
+ <h2> Code </h2>
     
     def función4  ( n : Int ) :  Doble  =
      
@@ -250,6 +253,8 @@ Evaluation 1 </h1>
  
 If the number entered in the function is less than 2, the number entered will be returned
  if it is not less than 2, the following will be done the formula is divided into parts to finally create the result</H5>
+ 
+ <h2> Code </h2>
   
      def función1 ( n : Doble ) :  Doble  =  
     {  
@@ -284,21 +289,22 @@ If the number entered in the function is less than 2, the number entered will be
  depending on the cycle (for) the variables (b, a) will begin to change their result until the end of the cycle (for)
  the result will be returned with (return)</H5>
 
-
-     def  function3 ( n : Int ) :  Int  = {
-      var  a  =  0 
-      var  b  =  1 
-
-    para (k < -  1 a n)
-    {
-       b = b + a
-       a = b - a
-
-       }
+ <h2> Code </h2>
+ 
+       def  function3 ( n : Int ) :  Int  = {
+         var  a  =  0 
+         var  b  =  1 
   
-        return (a)
-      }
-       función3 ( 10 )
+       para (k < -  1 a n)
+      { 
+         b = b + a
+         a = b - a
+
+        }
+  
+         return (a)
+       }
+         función3 ( 10 )
        
    
   <H1 aling="center">5 FIBONACCI ALGORTIMS</H1>
@@ -318,6 +324,8 @@ If the number entered in the function is less than 2, the number entered will be
  depending on the iteration of the cycle if the variable (i) is odd, different operations will be performed
  If the variable (i) is even, different operations will be made, the variable (i) will begin to change the value each
  Once the cycle is entered until you exit the cycle and the sum of (a + b) is returned</H5>
+ 
+ <h2> Code </h2>
  
      def función5 ( n : Doble ) :  Doble  =
       {
@@ -382,6 +390,8 @@ If the number entered in the function is less than 2, the number entered will be
  <H5 aling="center">
  5.- Recursive descending version If the number entered in the function is less than 2, the number entered will be returned
  if it is not less than 2, the function will do a series of sums and the result will return</H5> 
+ 
+ <h2> Code </h2>
    
     def   función ( n : Int ) :  Int  =  
     {  
@@ -406,6 +416,8 @@ If the number entered in the function is less than 2, the number entered will be
   Garcia Bautista Ana Laura #15210793
   
   Enciso Maldonado Aileen Yurely #15210329</H3>
+  
+  <h2> Code </h2>
   
     //Matrix Variables
     val arr = ((11,2,4),(4,5,6),(10,8,-12))
@@ -439,6 +451,8 @@ If the number entered in the function is less than 2, the number entered will be
   
   <H5 aling="center">
   assimilate to the SQL clause "GROUP BY", the Spark groupBy () function is used to collect identical data in groups in DataFrame / Dataset and perform aggregate functions in the grouped data. In this article, I will explain groupBy () examples with the Scala language</H5>
+  
+  <h2> Code </h2>
 
      import org.apache.spark.sql.SparkSession
     val spark = SparkSession.builder().getOrCreate()
@@ -505,6 +519,8 @@ If the number entered in the function is less than 2, the number entered will be
   Garcia Bautista Ana Laura #15210793
   
   Enciso Maldonado Aileen Yurely #15210329</H3>
+  
+  <h2> Code </h2>
    
     import org.apache.spark.sql.SparkSession
     val spark = SparkSession.builder().getOrCreate() 
@@ -581,6 +597,8 @@ If the number entered in the function is less than 2, the number entered will be
  We will use this Spark DataFrame to execute groupBy () in "department" columns and calculate aggregates as a minimum, maximum, average, total salary for each group using the aggregate functions min (), max () and sum () respectively. and finally,
  we will also see how to group and add in multiple columns </H5>
 
+<h2> Code </h2>
+
     import spark.implicits._
     val simpleData = Seq(("CristianR","Sales","NY",90000,34,10000),
     ("Aileen","Sales","NY",86000,56,20000),
@@ -607,6 +625,8 @@ If the number entered in the function is less than 2, the number entered will be
  
   <H5 aling="center"> 
 Data Type Verification sequence of donut elements where each element of the sequence is of type String </H5>
+
+<h2> Code </h2>
         
          println("Step 1: How to initialize a Sequence of donuts")
          val donuts: Seq[String] = Seq("Plain Donut", "Strawberry Donut", "Glazed Donut")
@@ -620,6 +640,8 @@ Data Type Verification sequence of donut elements where each element of the sequ
   Enciso Maldonado Aileen Yurely #15210329</H3> 
   
  <H5 aling="center"> groupBy method to group elements in the donut sequence by the first character of each donut </H5>
+ 
+ <h2> Code </h2>
 
      println("\nStep 2: How to group elements in a sequence using the groupBy function")
      val donutsGroup: Map[Char, Seq[String]] = donuts.groupBy(_.charAt(0))
@@ -635,6 +657,8 @@ Data Type Verification sequence of donut elements where each element of the sequ
 <H5 aling="center"> 
 Example of class creation with case class object to represent donut objects. </H5>
 
+<h2> Code </h2>
+
       println("\nStep 3: How to create a case class to represent Donut objects")
       case class Donut(name: String, price: Double)
       
@@ -648,6 +672,8 @@ Example of class creation with case class object to represent donut objects. </H
   
 <H5 aling="center">
 Donut case class from Step 3 and create a sequence of donut elements of type Donut.</H5>
+
+<h2> Code </h2>
 
      println("\nStep 4: How to create a Sequence of type Donut")
      val donuts2: Seq[Donut] = Seq(Donut("Plain Donut", 1.5), Donut("Strawberry Donut", 2.0), Donut("Glazed Donut", 2.5))
@@ -663,6 +689,8 @@ Donut case class from Step 3 and create a sequence of donut elements of type Don
  
 <H5 aling="center">
  group the donut objects represented by the Donut case class from Step 3 by their name property using the groupBy method</H5>
+ 
+ <h2> Code </h2>
 
      println(s"\nStep 5: How to group case classes donut objects by the name property")
      val donutsGroup2: Map[String, Seq[Donut]] = donuts2.groupBy(_.name)
@@ -674,6 +702,8 @@ Donut case class from Step 3 and create a sequence of donut elements of type Don
   Garcia Bautista Ana Laura #15210793
   
   Enciso Maldonado Aileen Yurely #15210329</H3>
+  
+  <h2> Code </h2>
  
     import org.apache.spark.sql.SparkSession
     val spark = SparkSession.builder().getOrCreate()
