@@ -1,25 +1,26 @@
 
 <H1 aling="center"> 
-Tecnológico Nacional De México Instituto Tecnológico De Tijuana
-Subdirección Académica
-Departamento De Sistemas Y Computación</H1>
-<H3 aling="center">SEMESTRE:</H3><H4 aling="center">Enero – junio 2020</H4>
-<H3 aling="center">CARRERA:</H3>
-<H4 aling="center">Ing. Tecnologías De Información Y Comunicación</H4>
-<H3 aling="center">MATERIA:</H3>
-<H4 aling="center">Datos Masivos</H4>
-<H3 aling="center">UNIDAD A EVALUAR:</H3>
-<H4 aling="center">Unidad 1</H4>
-<H3 aling="center">NOMBRE DEL ALUMNO:</H3>
+National Technological Institute of Mexico Technological Of Tijuana
+Academic Subdirectorate
+Systems and Computing Department</H1>
+
+<H3 aling="center">SEMESTER:</H3><H4 aling="center">Enero – junio 2020</H4>
+<H3 aling="center">CAREER:</H3>
+<H4 aling="center">Ing. Information and Communication Technologies</H4>
+<H3 aling="center">CLASS:</H3>
+<H4 aling="center">Big Data</H4>
+<H3 aling="center">UNIT TO EVALUATE:</H3>
+<H4 aling="center">Unit 1</H4>
+<H3 aling="center">Student's nameH3>
 <H4 aling="center">
- 
- Garcia Bautista Ana Laura # 15210793
- 
+ Garcia Bautista Ana Laura # 15210793 
+
  Enciso Maldonado Aileen Yurely #15210329</H4> 
-<H3 aling="center">MAESTRO (A):</H3>
+
+<H3 aling="center">Teacher (A):</H3>
 <H4 aling="center">Romero Hernández José Christian </H4>
 
-<H3> Seccion De Unidades</H3>  
+<H3> Units Section</H3>  
 
  <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1" target="_blank">Unidad 1</a></li>
  <ul>
@@ -29,46 +30,46 @@ Departamento De Sistemas Y Computación</H1>
  
  <H3>Tabla de contenido</H3>
 
-[1.-Practica 1](#Practica-1) 
+[1.-Practice 1](#Practice-1) 
 
-[2.-Pracica 2](#Practica-2) 
+[2.-Practice 2](#Practice-2) 
 
-[3.-Algoritmos de la secuencia de Fibonacci 1](#Algoritmos-de-la-secuencia-de-Fibonacci-1) 
+[3.-Fibonacci sequence algorithms 1](#Fibonacci-sequence-algorithms-1) 
 
-[3.1.-Algoritmos de la secuencia de Fibonacci 2](#Algoritmos-de-la-secuencia-de-Fibonacci-2) 
+[3.1.-Fibonacci sequence algorithms 2](#Fibonacci-sequence-algorithms-2) 
 
-[3.2.-Algoritmos de la secuencia de Fibonacci 3](#Algoritmos-de-la-secuencia-de-Fibonacci-3) 
+[3.2.-Fibonacci sequence algorithms 3](#Fibonacci-sequence-algorithms-3) 
 
-[3.3.-Algoritmos de la secuencia de Fibonacci 4](#Algoritmos-de-la-secuencia-de-Fibonacci-4) 
+[3.3.-Fibonacci sequence algorithms 4](#Fibonacci-sequence-algorithms-4) 
 
-[3.4.-Algoritmos de la secuencia de Fibonacci 5](#Algoritmos-de-la-secuencia-de-Fibonacci-5) 
+[3.4.-Fibonacci sequence algorithms 5](#Fibonacci-sequence-algorithms-5) 
 
-[4.-Funciones De DF 1](#Funciones-De-DF-1)
+[4.-DF Functions 1](#DF-Functions-1)
 
-[4.1.-Funciones De DF 2](#Funciones-De-DF-2) 
+[4.1.-DF Functions 2](#DF-Functions-2) 
 
-[4.2.-Funciones De DF 3](#Funciones-De-DF-3) 
+[4.2.-DF Functions 3](#DF-Functions-3) 
 
-[4.3.-Funciones De DF 4](#Funciones-De-DF-4) 
+[4.3.-DF Functions 4](#DF-Functions-4) 
 
-[4.4.-Funciones De DF 5](#Funciones-De-DF-5) 
+[4.4.-DF Functions 5](#DF-Functions-5) 
 
-[4.5.-Funciones De DF 6](#Funciones-De-DF-6) 
+[4.5.-DF Functions 6](#DF-Functions-6) 
 
-[4.6.-Funciones De DF 7](#Funciones-De-DF-7) 
+[4.6.-DF Functions 7](#DF-Functions-7) 
 
-[4.7.-Funciones De DF 8](#Funciones-De-DF-8) 
+[4.7.-DF Functions 8](#DF-Functions-8) 
 
-[5.-TRABAJO DE INVESTIGACION 1](#TRABAJO-DE-INVESTIGACION-5)
+[5.-RESEARCH WORK 1](#RESEARCH-WORK-5)
 
-[6.-TRABAJO DE INVESTIGACION 2](#TRABAJO-DE-INVESTIGACION-6)
+[6.-RESEARCH WORK 2](#RESEARCH-WORK-6)
 
  
 
 <H1 aling="center">
- Evaluación 1 </h1>
+Evaluation 1 </h1>
 
-# Practica 1
+# PRACTICE 1
   
  <H3 aling="center">
 
@@ -77,21 +78,21 @@ Departamento De Sistemas Y Computación</H1>
  Enciso Maldonado Aileen Yurely #15210329</H3>
 
  <H5 aling="center">
- 1. Desarrolla un algoritmo en escala que calcula el radio de un círculo.
+1. Develop a scale algorithm that calculates the radius of a circle.
  
- 2. Desarrolle un algoritmo en scala que me diga si un número es un número primo.
+ 2. Develop an algorithm in scala that tells me if a number is a prime number.
  
- 3. Dada la variable bird = "tweet", use la interpolación de cadena para imprimir "Estoy escribiendo   un tweet".
+ 3. Given the variable bird = "tweet", use string interpolation to print "I am writing a tweet".
  
- 4. Dada la variable mensaje = "Hola Luke soy tu padre!" usa slilce para extraer la secuencia "Luke".
+ 4. Given the variable message = "Hello Luke, I'm your father!" use slilce to extract the "Luke" sequence.
  
- 5. Cual es la diferencia en valor y una variable en escala?
+ 5. What is the difference in value and a variable in scale?
  
- 6.Respuesta :value(val) se le asigna un valor definido y no puede ser cambiado, en una variable
+ 6.Response: value (val) is assigned a defined value and cannot be changed, in a variable
  
- 6. Dada la tupla (2,4,5,1,2,3,3.1416,23) devuelve el número 3.1416.</H5>
+ 6. Given the tuple (2,4,5,1,2,3,3.1416,23) returns the number 3.1416. </H5>
  
-<h1> Codigo </h1>
+<h2 Code </h2>
 
 
     Print ("ingrese el valor del circulo:")
@@ -140,7 +141,7 @@ Departamento De Sistemas Y Computación</H1>
     var  x  = ( 2 , 4 , 5 , 1 , 2 , 3 , 3.1416 , 23 )
     println (x._7)</H4>
 
-# Practica 2
+# PRACTICE 2
   
  <H4 aling="center">
  Garcia Bautista Ana Laura #15210793
@@ -148,21 +149,22 @@ Departamento De Sistemas Y Computación</H1>
  Enciso Maldonado Aileen Yurely #15210329</H4>
 
 <H5 aling="center">
-1. Crea una lista llamad "lista" con los elementos "rojo", "blanco", "negro"
 
-2. Añadir 5 elementos mas a "lista" "verde", "amarillo", "azul", "naranja", "perla"
- 
-3. Traer los elementos de "lista" "verde", "amarillo", "azul"
+1. Create a list called "list" with the elements "red", "white", "black"
 
-4. Crea un arreglo de número en rango del 1-1000 en pasos de 5 en 5
+2. Add 5 more items to "list" "green", "yellow", "blue", "orange", "pearl"
 
-5. Cuales son los elementos unicos de la lista Lista (1,3,3,4,6,7,3,7) usan conversion a conjuntos.
+3. Bring the "list" "green", "yellow", "blue" items
 
-6. Crea un mapa mutable llamado nombres que contenga los siguientes "José", 20, "Luis", 24, "Ana", 23, "Susana", "27"
+4. Create a number array in the 1-1000 range in 5-in-5 steps
 
-6 a. Imprime todas las llaves del mapa
+5. What are the unique elements of the List list (1,3,3,4,6,7,3,7) use conversion to sets.
 
-6 b. Agrega el siguiente valor al mapa ("Miguel", 23)</H5>
+6. Create a mutable map called names containing the following "José", 20, "Luis", 24, "Ana", 23, "Susana", "27"
+
+6 a. Print all map keys
+
+6 b. Add the following value to the map ("Miguel", 23) </H5>
 
      import scala.collection.mutable.ListBuffer
      var lista = collection.mutable.ListBuffer("rojo","blanco","negro")
@@ -186,24 +188,24 @@ Departamento De Sistemas Y Computación</H1>
     nombres += ("Miguel" -> 23)
       
   
-  <H1 aling="center">5 AlGORTIMOS DE FIBONACCI</H1>
+  <H1 aling="center">5 FIBONACCI ALGORTIMS</H1>
    
- # Algoritmos de la secuencia de Fibonacci 1 
+ # Fibonacci sequence algorithms 1 
   <H3 aling="center">
   Garcia Bautista Ana Laura #15210793
  
   Enciso Maldonado Aileen Enciso #15210329</H3>
 
  <H5 aling="center">
- 1.-En este quinto algoritmo se realiza una función que solicita un valor entero (Int) luego devuelve un valor entero 
+1.-In this fifth algorithm a function is performed that requests an integer value (Int) then returns an integer value
  
- 2.-Con decimales (Doble) Se crea una matriz que comienza de 0 a (n + 1) si la variable (n) es menor que 2, esa misma 
+ 2.-With decimals (Double) A matrix is ​​created that starts from 0 to (n + 1) if the variable (n) is less than 2, that same
  
- 3.-Variable se devuelve como resultado de lo contrario, el vector con espacio (0) tendrá un valor de cero (0) y 
+ 3.-Variable is returned as a result otherwise, the vector with space (0) will have a value of zero (0) and
  
- 4.-El vector con espacio (1) tendrá un valor de uno (1) Comience a pedalear con a para el vector, el 
+ 4.-The vector with space (1) will have a value of one (1) Start pedaling with a for the vector, the
  
- 5.-resultado será la variable (n) de acuerdo con el vector de</H5>
+ 5.-result will be the variable (n) according to the vector of </H5>
     
     def función4  ( n : Int ) :  Doble  =
      
@@ -230,9 +232,9 @@ Departamento De Sistemas Y Computación</H1>
     función4 ( 10 )
      
  
- <H1 aling="center">5 AlGORTIMOS DE FIBONACCI</H1>
+ <H1 aling="center">5 FIBONACCI ALGORTIMS</H1>
    
- # Algoritmos de la secuencia de Fibonacci 2.
+ # Fibonacci sequence algorithms 2.
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -240,11 +242,12 @@ Departamento De Sistemas Y Computación</H1>
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
  <H3 aling="center"> 
- 2.- Versión con fórmula explícita</H3>
+ 2.- Version with explicit formula</H3>
  
  <H5 aling="center"> 
- Si el número ingresado en la función es menor que 2, el número ingresado será devuelto
- si no es menor que 2, se hará lo siguiente la fórmula se divide en partes para finalmente crear el resultado</H5>
+ 
+If the number entered in the function is less than 2, the number entered will be returned
+ if it is not less than 2, the following will be done the formula is divided into parts to finally create the result </H5>
   
      def función1 ( n : Doble ) :  Doble  =  
     {  
@@ -263,9 +266,9 @@ Departamento De Sistemas Y Computación</H1>
     }  
      function1 ( 10 )
       
-  <H1 aling="center">5 AlGORTIMOS DE FIBONACCI</H1>
+  <H1 aling="center">5 FIBONACCI ALGORTIMS</H1>
    
-  # Algoritmos de la secuencia de Fibonacci 3
+  # Fibonacci sequence algorithms 3
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -273,11 +276,11 @@ Departamento De Sistemas Y Computación</H1>
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
  <H5 aling="center">
- 3.-En este cuarto trimestre se agregó una función que después de haber realizado las operaciones correspondientes, 
- la función nos dará un resultado (retorno) este debe ser un valor entero (Int) Un ciclo (para) comienza donde k = 1,
- comenzará a ciclar hasta que se convierta en (n), (n) representa el valor que se ingresará en la función 
- dependiendo del ciclo (para) las variables (b, a) comenzarán a cambiar su resultado hasta el final del ciclo (para) 
- el resultado se devolverá con (return)</H5>
+ 3.-In this fourth quarter a function was added that after having carried out the corresponding operations,
+ the function will give us a result (return) this must be an integer value (Int) A cycle (for) begins where k = 1,
+ start cycling until it becomes (n), (n) represents the value that will be entered into the function
+ depending on the cycle (for) the variables (b, a) will begin to change their result until the end of the cycle (for)
+ the result will be returned with (return) </H5>
 
 
      def  function3 ( n : Int ) :  Int  = {
@@ -296,9 +299,9 @@ Departamento De Sistemas Y Computación</H1>
        función3 ( 10 )
        
    
-  <H1 aling="center">5 AlGORTIMOS DE FIBONACCI</H1>
+  <H1 aling="center">5 FIBONACCI ALGORTIMS</H1>
    
-  # Algoritmos de la secuencia de Fibonacci 4
+  # Fibonacci sequence algorithms 4
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -306,13 +309,14 @@ Departamento De Sistemas Y Computación</H1>
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
  <H5 aling="center">
- 4.-En este sexto algoritmo se agregó una función que después de haber realizado las operaciones correspondientes, 
- la función nos dará un resultado (retorno) este debe ser un valor entero con puntos decimales (Doble)
- si el valor ingresado es menor o igual a 0, entonces ese valor se devolverá De lo contrario, tendrá 
- que realizar una serie de operaciones de iniciar un ciclo ( while) donde las variables comenzarán a cambiar el valor 
- dependiendo de la iteración del ciclo si la variable (i) es impar, se realizarán diferentes operaciones
- Si la variable (i) es par, diferentes operaciones se harán la variable (i) comenzará a cambiar el valor cada
- vez que se ingrese el ciclo hasta que salga del ciclo y se devuelva la suma de (a + b)</H5>
+
+4.-In this sixth algorithm a function was added that after having performed the corresponding operations,
+ the function will give us a result (return) this must be an integer value with decimal points (Double)
+ if the value entered is less than or equal to 0, then that value will be returned Otherwise, it will have
+ to perform a series of operations of starting a cycle (while) where the variables will begin to change the value
+ depending on the iteration of the cycle if the variable (i) is odd, different operations will be performed
+ If the variable (i) is even, different operations will be made, the variable (i) will begin to change the value each
+ Once the cycle is entered until you exit the cycle and the sum of (a + b) is returned </H5>
  
      def función5 ( n : Doble ) :  Doble  =
       {
@@ -365,9 +369,9 @@ Departamento De Sistemas Y Computación</H1>
     Función5 ( 9 )
 
 
-  <H1 aling="center"> 5 AlGORTIMOS DE FIBONACCI</H1>
+  <H1 aling="center"> 5 FIBONACCI ALGORTIMS</H1>
     
- # Algoritmos de la secuencia de Fibonacci 5
+ # Fibonacci sequence algorithms 5
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -375,9 +379,11 @@ Departamento De Sistemas Y Computación</H1>
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
  <H5 aling="center">
- 5.- Versión descendente recursiva 
- Si el número ingresado en la función es menor que 2, el número ingresado será devuelto
- si no es menor que 2, la función hará una serie de sumas y el resultado devolverá </H5> 
+ 
+5.- Recursive descending version
+ If the number entered in the function is less than 2, the number entered will be returned
+ if it is not less than 2, the function will do a series of sums and the result will return </H5> 
+ 
    
     def   función ( n : Int ) :  Int  =  
     {  
@@ -396,36 +402,37 @@ Departamento De Sistemas Y Computación</H1>
    
     función ( 10 )
     
-  # EXAMEN PRUEBA 1
+  # TEST EXAM 1
    
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
   
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
-    //Variables de la Matriz
+    //Matrix Variables
     val arr = ((11,2,4),(4,5,6),(10,8,-12))
  
-    //Verificacion de ariables enteras
+    //Integer variables verification
     def diagonaldifference(arr2:((Int, Int, Int), (Int, Int, Int), (Int, Int, Int))): 
     Int = {
  
-    //Se inica el arreglo de la matriz
+    //Array is started
     val diagonl_1 =(arr._1._1)+(arr._2._2)+(arr._3._3)
     val diagonl_2 =(arr._1._3)+(arr._2._2)+(arr._3._1)
  
-    //Direfencia absoluta de la matriz
+    //Absolute leadership of the matrix
     var diferencia = diagonal_1-diagonal_2
     var resulado= math.abs(diferenciaabsoluta)
  
-    //Regresa el rsultado de un valor entero de la matriz
+    //Returns the result of an integer value of the array
+
     return resultado
     }
     diagonaldifference(arr)
   
-  <H1 aling="center">Practicas</H1>
+  <H1 aling="center">Practices</H1>
    
-  # Funciones De DF 1
+  # DF Functions 1
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -433,7 +440,7 @@ Departamento De Sistemas Y Computación</H1>
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
   <H5 aling="center">
-  Similar a la cláusula SQL "GROUP BY", la función Spark groupBy () se usa para recopilar datos idénticos en grupos en DataFrame /      Dataset y realizar funciones agregadas en los datos agrupados. En este artículo, explicaré groupBy()ejemplos con el lenguaje Scala</H5>
+  assimilate to the SQL clause "GROUP BY", the Spark groupBy () function is used to collect identical data in groups in DataFrame / Dataset and perform aggregate functions in the grouped data. In this article, I will explain groupBy () examples with the Scala language </H5>
 
      import org.apache.spark.sql.SparkSession
     val spark = SparkSession.builder().getOrCreate()
@@ -496,7 +503,7 @@ Departamento De Sistemas Y Computación</H1>
  
  <H1 aling="center">Practicas</H1>
    
-  # Funciones De DF 2
+  # DF Functions 2
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -566,10 +573,8 @@ Departamento De Sistemas Y Computación</H1>
 
     //20 sample for years
     df.select(year(df("Date"))).show()
- 
-  <H1 aling="center">Practicas</H1>
-   
-  # Funciones De DF 3
+  
+  # DF Functions 3
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -577,8 +582,8 @@ Departamento De Sistemas Y Computación</H1>
   Enciso Maldonado Aileen Yurely #15210329</H3>
  
  <H5 aling="center"> 
- Usaremos este Spark DataFrame para ejecutar groupBy () en columnas de "departamento" y calcular agregados como mínimo, máximo,          promedio, salario total para cada grupo usando las funciones de agregado min (), max () y sum () respectivamente. y finalmente,
- también veremos cómo agrupar y agregar en múltiples columnas</H5>
+ We will use this Spark DataFrame to execute groupBy () in "department" columns and calculate aggregates as a minimum, maximum, average, total salary for each group using the aggregate functions min (), max () and sum () respectively. and finally,
+ we will also see how to group and add in multiple columns </H5>
 
     import spark.implicits._
     val simpleData = Seq(("CristianR","Sales","NY",90000,34,10000),
@@ -595,51 +600,50 @@ Departamento De Sistemas Y Computación</H1>
     
     val df = simpleData.toDF("employee_name","department","salary","state","age","bonus")
     df.show()
-
- <H1 aling="center">Practicas</H1>
+    
    
- # Funciones De DF 3
+ # DF Functions 3
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
   
   Enciso Maldonado Aileen Yurely #15210329</H3>
  
-  <H5 aling="center"> Verificación de tipo de dato
-  Secuencia de elementos donut donde cada elemento de la secuencia es de tipo String</H5>
-
+  <H5 aling="center"> 
+Data Type Verification sequence of donut elements where each element of the sequence is of type String </H5>
+        
          println("Step 1: How to initialize a Sequence of donuts")
          val donuts: Seq[String] = Seq("Plain Donut", "Strawberry Donut", "Glazed Donut")
          println(s"Elements of donuts = $donuts"
   
- # Funciones De DF 4
+ # DF Functions 4
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
   
   Enciso Maldonado Aileen Yurely #15210329</H3> 
   
- <H5 aling="center"> método groupBy para agrupar elementos en la secuencia de donas por el primer carácter de cada donut</H5>
+ <H5 aling="center"> groupBy method to group elements in the donut sequence by the first character of each donut </H5>
 
      println("\nStep 2: How to group elements in a sequence using the groupBy function")
      val donutsGroup: Map[Char, Seq[String]] = donuts.groupBy(_.charAt(0))
      println(s"Group elements in the donut sequence by the first letter of the donut name = $donutsGroup")
 
- # Funciones De DF 5
+ # DF Functions 5
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
   
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
-<H5 aling="center"> Ejemplo de creación de clase con objeto
-clase de caso para representar objetos donut.</H5>
+<H5 aling="center"> 
+Example of class creation with case class object to represent donut objects. </H5>
 
       println("\nStep 3: How to create a case class to represent Donut objects")
       case class Donut(name: String, price: Double)
       
       
-  # Funciones De DF 6
+  # DF Functions 6
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -647,29 +651,28 @@ clase de caso para representar objetos donut.</H5>
   Enciso Maldonado Aileen Yurely #15210329</H3>
   
 <H5 aling="center">
-Clase de caso Donut del Paso 3 y crear una secuencia de elementos donut de tipo Donut.</H5>
+Donut case class from Step 3 and create a sequence of donut elements of type Donut. </H5>
 
-    println("\nStep 4: How to create a Sequence of type Donut")
-    val donuts2: Seq[Donut] = Seq(Donut("Plain Donut", 1.5), Donut("Strawberry Donut", 2.0), Donut("Glazed Donut", 2.5))
-    println(s"Elements of donuts2 = $donuts2")
+     println("\nStep 4: How to create a Sequence of type Donut")
+     val donuts2: Seq[Donut] = Seq(Donut("Plain Donut", 1.5), Donut("Strawberry Donut", 2.0), Donut("Glazed Donut", 2.5))
+     println(s"Elements of donuts2 = $donuts2")
 
    
-  # Funciones De DF 7
+  # DF Functions 7
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
   
   Enciso Maldonado Aileen Yurely #15210329</H3>
  
- 
 <H5 aling="center">
- agrupar los objetos donut representados por la clase de caso Donut del Paso 3 por su propiedad de nombre usando el método groupBy</H5> 
+ group the donut objects represented by the Donut case class from Step 3 by their name property using the groupBy method </H5>
 
      println(s"\nStep 5: How to group case classes donut objects by the name property")
      val donutsGroup2: Map[String, Seq[Donut]] = donuts2.groupBy(_.name)
      println(s"Group element in the sequence of type Donut grouped by the donut name = $donutsGroup2"
 
-  # Funciones De DF 8
+  # DF Functions 8
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -740,7 +743,7 @@ Clase de caso Donut del Paso 3 y crear una secuencia de elementos donut de tipo 
     //20 Choose the volume column max
     df.select(max("Volume")).show() 
 
- # TRABAJO DE INVESTIGACION 1
+ # RESEARCH WORK 1
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
@@ -771,9 +774,8 @@ A large variance indicates that numbers in the set are far from the mean and fro
        height="200">
 </center>
    
-  
    
-  # TRABAJO DE INVESTIGACION 2
+  # RESEARCH WORK 2
  
   <H3 aling="center"> 
   Garcia Bautista Ana Laura #15210793
