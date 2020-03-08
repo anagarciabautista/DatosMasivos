@@ -92,7 +92,7 @@ Evaluation 1 </h1>
  
  6. Given the tuple (2,4,5,1,2,3,3.1416,23) returns the number 3.1416.</H5>
  
-<h2 Code </h2>
+<h2> Code </h2>
 
 
     Print ("ingrese el valor del circulo:")
