@@ -1,4 +1,4 @@
-# DatosMasivos
+# Big Data
 
 <H1 aling="center"> 
 Tecnológico Nacional De México Instituto Tecnológico De Tijuana
@@ -29,10 +29,12 @@ Departamento De Sistemas Y Computación</H1>
 
 <br>
 
- <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1" target="_blank">Unidad 1</a></li>
+ <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1" target="_blank">Unit 1</a></li>
    <ul>
   
-  <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1/Practica_tareas" target="_blank">Practica-Tareas</a>  </li>
- <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1/Evaluacion" target="_blank">Evaluacion</a></li>
+  <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1/Practica_tareas" target="_blank">Practices And Tasks</a>  </li>
+  
+ <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1/Evaluacion" target="_blank">
+Evaluation</a></li>
  
  </u>
