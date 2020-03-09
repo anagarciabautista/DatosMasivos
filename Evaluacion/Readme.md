@@ -1,31 +1,31 @@
-# DatosMasivos
+# Big Data
 
 <H1 aling="center"> 
-Tecnológico Nacional De México Instituto Tecnológico De Tijuana
-Subdirección Académica
-Departamento De Sistemas Y Computación</H1>
+National Technological Institute of Mexico Technological Of Tijuana
+Academic Subdirectorate
+Systems and Computing Department</H1>
 
-<H3 aling="center">SEMESTRE:</H3>
-<H4 aling="center">Enero – junio 2020</H4>
-
-<H3 aling="center">CARRERA:</H3>
-<H4 aling="center">Ing. Tecnologías De Información Y Comunicación</H4>
-
-<H3 aling="center">MATERIA:</H3>
-<H4 aling="center">Datos Masivos</H4>
-
-<H3 aling="center">UNIDAD A EVALUAR:</H3>
-<H4 aling="center">Unidad 1</H4>
-
-<H3 aling="center">NOMBRE DEL ALUMNO:</H3>
+<H3 aling="center">SEMESTER:</H3><H4 aling="center">January - June 2020</H4>
+<H3 aling="center">CAREER:</H3>
+<H4 aling="center">Ing. Information and Communication Technologies</H4>
+<H3 aling="center">CLASS:</H3>
+<H4 aling="center">Big Data</H4>
+<H3 aling="center">UNIT TO EVALUATE:</H3>
+<H4 aling="center">Unit 1</H4>
+<H3 aling="center">Student's name</H3>
 <H4 aling="center">
- 
- Garcia Bautista Ana Laura # 15210793
- 
+ Garcia Bautista Ana Laura # 15210793 
+
  Enciso Maldonado Aileen Yurely #15210329</H4> 
 
-<H3 aling="center">MAESTRO (A):</H3>
+<H3 aling="center">Teacher (A):</H3>
 <H4 aling="center">Romero Hernández José Christian </H4>
+
+
+[1.-TEST EXAM 1](#TEST-EXAM-1)
+
+[2.-TEST EXAM 2](#TEST-EXAM-2)
+
 
  # TEST EXAM 1
    
