@@ -21,6 +21,18 @@ Systems and Computing Department</H1>
 <H3 aling="center">Teacher (A):</H3>
 <H4 aling="center">Romero Hernández José Christian </H4>
 
+
+<H5> Units Section</H5>
+           
+ <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1" target="_blank">Unit 1</a></li>
+   <ul>
+  
+  <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1/Practica_tareas" target="_blank">
+Practice and Tasks</a>  </li>
+ 
+ </u>
+ 
+
 <H3>Table of Contents</H3>
 
 [1.-TEST EXAM 1](#TEST-EXAM-1)
@@ -120,14 +132,3 @@ Systems and Computing Department</H1>
     //e Cual es el promedio de la columna close para cada  mes del calendario
      df.groupBy(month(df("Date"))).avg().show()
 
-
-
-<p> Index </p>
-           
- <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1" target="_blank">Unit 1</a></li>
-   <ul>
-  
-  <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1/Practica_tareas" target="_blank">
-Practice and Tasks</a>  </li>
- 
- </u>
