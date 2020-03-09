@@ -21,6 +21,7 @@ Systems and Computing Department</H1>
 <H3 aling="center">Teacher (A):</H3>
 <H4 aling="center">Romero Hernández José Christian </H4>
 
+<H3>Table of Contents</H3>
 
 [1.-TEST EXAM 1](#TEST-EXAM-1)
 
@@ -123,7 +124,7 @@ Systems and Computing Department</H1>
 
 <p> Index </p>
            
- <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1" target="_blank">UniT 1</a></li>
+ <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1" target="_blank">Unit 1</a></li>
    <ul>
   
   <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_1/Practica_tareas" target="_blank">
