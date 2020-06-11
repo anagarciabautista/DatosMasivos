@@ -20,3 +20,13 @@ Systems and Computing Department</H1>
 <H3 aling="center">Teacher (A):</H3>
 <H4 aling="center">Romero Hernández José Christian </H4>
 
+<li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_2" target="_blank">Unit 2</a></li>
+   <ul>
+  
+  <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_2/Practices" target="_blank">Practices And Tasks</a>  </li>
+  
+ <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_2/Evaluation" target="_blank">
+Evaluation</a></li>
+ 
+ </u>
+
