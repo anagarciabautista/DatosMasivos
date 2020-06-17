@@ -64,7 +64,9 @@ Evaluation</a></li>
  Enciso Maldonado Aileen Yurely #15210329</H3>
 
  <H5 aling="center"> 
+ 
  1.- Se agregan las librerias del algortimo
+ 
 
  2.- Todas las clases y métodos que se utilizaran en el modelo
  
@@ -144,7 +146,9 @@ Evaluation</a></li>
  Enciso Maldonado Aileen Yurely #15210329</H3>
 
  <H5 aling="center"> 
+ 
 1.- Se agregan las librerias del algortimo
+
 
 2.- Se carga y se convierte en un DataFrame.
 
@@ -213,7 +217,9 @@ Evaluation</a></li>
  Enciso Maldonado Aileen Yurely #15210329</H3>
 
  <H5 aling="center">
+ 
  1.- Se agregan las librerias del algortimo
+ 
  
  2.- Se carga los datos en la variable "data" en formato "libsvm"
  
@@ -222,6 +228,7 @@ Evaluation</a></li>
  4.- Se agrega una nueva columna "indexedFeatures" que tendra todos los datos de la columna "features"
  
  5.- Se declaran dos arreglos; "trainingData" y "testData" de los cuales tendran 70% y 30% de los datos que fueron declarados en la  variable "data"
+ 
  6.- Se declara el modelo y se agregan como parametros "indexedLabel" y "indexedFeatures", que son las etiquetas de cada clase
 y las caracteristicas de esa clase
 
@@ -282,7 +289,9 @@ y las caracteristicas de esa clase
  Enciso Maldonado Aileen Yurely #15210329</H3>
 
  <H5 aling="center"> 
+ 
 1.- Se agregan las librerias del algortimo
+
 
 2.- Se cargan los datos en la variable "data" en un formato "libsvm"
 
