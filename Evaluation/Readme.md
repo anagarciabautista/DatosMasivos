@@ -18,15 +18,6 @@ Systems and Computing Department</H1>
 
 <H3 aling="center">Teacher (A):</H3>
 <H4 aling="center">Romero Hernández José Christian </H4>
-
-<H3> Units Section</H3>  
-
- <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_3" target="_blank">Unit 3/a></li>
- <ul>
- 
- <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_3/Evaluation" target="_blank">
-Evaluation</a></li>
- </u>
  
 <H3 aling="center">
 
@@ -37,14 +28,21 @@ Evaluation</a></li>
  <H2> Test </H2>
  
  <H5 aling="center">
-1.- Libreria spark
-2.- para que no marque errores 
-3.- cargamos el csv 
-4.- selecionamos las columnas que vamos a entrenar
-5.- entrenamos la data que colocamos en el vectorassembler
-6.- la data entrenada la pasamos al modelo 
-7.- Evaluate clustering by calculate Within Set Sum of Squared Errors.
-8.- resultado </H5>
+1.- Spark library
+ 
+2.- so that it does not mark errors
+
+3.- we load the csv
+
+4.- select the columns that we are going to train
+
+5.- we train the data that we put in the vectorassembler
+
+6.- we pass the trained data to the model
+
+7.- Evaluate the grouping by calculating Within the sum of quadratic errors.
+
+8.- result </H5>
 
      import org.apache.spark.sql.SparkSession
      import org.apache.spark.ml.clustering.KMeans
@@ -58,7 +56,8 @@ Evaluation</a></li>
      val dataset = spark.read.option("header","true").option("inferSchema","true").csv("Wholesale customers data.csv")
 
     val feature_data = df.select($"Fresh", $"Milk", $"Grocery", $"Frozen", $"Detergents_Paper", $"Delicassen")
-    val assembler = new VectorAssembler().setInputCols(Array("Fresh", "Milk", "Grocery", "Frozen", "Detergents_Paper", "Delicassen")).setOutputCol("features")
+    val assembler = new VectorAssembler().setInputCols(Array("Fresh", "Milk", "Grocery", "Frozen", "Detergents_Paper",   
+    "Delicassen")).setOutputCol("features")
 
     val traning = assembler.transform(feature_data)
 
