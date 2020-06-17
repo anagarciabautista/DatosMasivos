@@ -1,4 +1,5 @@
 # DatosMasivos
+
 <H1 aling="center"> 
 National Technological Institute of Mexico Technological Of Tijuana
 Academic Subdirectorate
@@ -23,10 +24,9 @@ Systems and Computing Department</H1>
 <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_2" target="_blank">Unit 2</a></li>
    <ul>
   
-  <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_2/Practices" target="_blank">Practices And Tasks</a>  </li>
+  <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_2/Practices" target="_blank">Practices And Tasks</a></li>
   
  <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_2/Evaluation" target="_blank">
 Evaluation</a></li>
- 
- </u>
+  </u>
 
