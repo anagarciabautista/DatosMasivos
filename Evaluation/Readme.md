@@ -18,15 +18,6 @@ Systems and Computing Department</H1>
 
 <H3 aling="center">Teacher (A):</H3>
 <H4 aling="center">Romero Hernández José Christian </H4>
-
-<H3> Units Section</H3>  
-
- <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_2" target="_blank">Unit 2</a></li>
- <ul>
- 
- <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_2/Evaluation" target="_blank">
-Evaluation</a></li>
- </u>
  
 <H3 aling="center">
 
@@ -38,45 +29,46 @@ Evaluation</a></li>
  
  <H5 aling="center">
   
-1.- Agregamos las lbrerias necesarias para trabajar con el algortimo Multilayer Perceptron.
 
-2.- Del data set Iris.cvs, elaborar la limpieza de datos necesaria por medio de un scrip en scala spark, impportamos las librerias necesarias para la limpieza.
+1.- We add the necessary libraries to work with the Multilayer Perceptron algorithm.
 
-3.- Se cargan los datos del dataser iris.csv en la variable "data"
+2.- From the data set Iris.cvs, elaborate the necessary data cleaning by means of a scrip in scala spark, we import the necessary libraries for the cleaning.
 
-4.- Vemos el esquema para comprobar que todos los valores estan calsificados correctamente en el datset
+3.- The data from the dataser iris.csv is loaded in the variable "data"
 
-5.- Se eliminan los campos null 
+4.- We see the scheme to check that all the values ​​are correctly classified in the datset
 
-6.- Se declara un vector que se transforma los datos a la variable "features"
+5.- null fields are removed
 
-7.- Se transforman los features usando el dataframe
+6.- A vector is declared that transforms the data to the variable "features"
 
-8.- Se declara un "StringIndexer" que transformada los datos en "species" en datos numericos 
+7.- The features are transformed using the dataframe
 
-9.- Ajustamos las especies indexadas con el vector features
+8.- A "StringIndexer" is declared that transforms the data in "species" into numerical data
 
-10.- Con la variable "splits" hacemos un corte de forma aleatoria
+9.- We adjust the indexed species with the vector features
 
-11.- Se declara la variable "train" la cual tendra el 60% de los datos
+10.- With the variable "splits" we make a cut randomly
 
-12.- Se declara la variable "test" la cual tendra el 40% de los datos
+11.- The variable "train" is declared which will have 60% of the data
 
-13.- Se establece la configuracion de las capas para el modelo de redes neuronales artificiales
+12.- The variable "test" is declared which will have 40% of the data
 
-14.- Se configura el entrenador del algoritmo Multilayer con sus respectivos parametros
+13.- The configuration of the layers for the artificial neural network model is established.
 
-15.- Se entrena el modelo con los datos de entrenamiento
+14.- The Multilayer algorithm trainer is configured with their respective parameters
 
-16.- Se prueban ya entrenado el modelo
+15.- The model is trained with the training data
 
-17.- Se selecciona la prediccion y la etiqueta que seran guardado en la variable 
+16.- The model is tested already trained
 
-18.- Se muestran algunos datos 
+17.- Select the prediction and the label that will be stored in the variable
 
-19.- Se ejecuta la estimacion de la precision del modelo
+18.- Some data is shown
 
-20.-Se imprime el error del modelo</H5>
+19.- The estimation of the model precision is executed
+
+20.-The model error is printed</H5>
 
     import org.apache.spark.ml.classification.MultilayerPerceptronClassifier
     import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
@@ -91,7 +83,8 @@ Evaluation</a></li>
 
     val dataClean = data.na.drop()
 
-     val vectorFeatures = (new VectorAssembler().setInputCols(Array("sepal_length","sepal_width", "petal_length","petal_width")).setOutputCol("features"))
+     val vectorFeatures = (new VectorAssembler().setInputCols(Array("sepal_length","sepal_width",
+     "petal_length","petal_width")).setOutputCol("features"))
 
      val features = vectorFeatures.transform(dataClean)
 
@@ -117,7 +110,8 @@ Evaluation</a></li>
 
     predictionAndLabels.show()
 
-     val evaluator = new MulticlassClassificationEvaluator().setLabelCol("label").setPredictionCol("prediction").setMetricName("accuracy")
+     val evaluator = new
+     MulticlassClassificationEvaluator().setLabelCol("label").setPredictionCol("prediction").setMetricName("accuracy")
     val accuracy = evaluator.evaluate(predictionAndLabels)
 
     println(s"Test Error = ${(1.0 - accuracy)}")
