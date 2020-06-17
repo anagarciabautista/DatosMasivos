@@ -20,14 +20,6 @@ Systems and Computing Department</H1>
 <H3 aling="center">Teacher (A):</H3>
 <H4 aling="center">Romero Hernández José Christian </H4>
 
-<H3> Units Section</H3>  
-
- <li type="type="square""><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_2" target="_blank">Unit 2</a></li>
- <ul>
- 
- <li type="circle"><a href="https://github.com/anagarciabautista/DatosMasivos/tree/Unidad_2/Evaluation" target="_blank">
-Evaluation</a></li>
- </u>
  
  <H3>Table of Contents</H3>
  
@@ -64,41 +56,42 @@ Evaluation</a></li>
  Enciso Maldonado Aileen Yurely #15210329</H3>
 
  <H5 aling="center"> 
- 1.- Se agregan las librerias del algortimo
+ 
+ 1.- The algorithm libraries are added
 
- 2.- Todas las clases y métodos que se utilizaran en el modelo
+ 2.- All the classes and methods that will be used in the model
  
- 3.- Transformers: Convierte un DataFrame  en otro agregando mas columnas, Estimators fit() que produce el modelo
+ 3.- Transformers: Convert one DataFrame to another by adding more columns, Estimators fit () that produces the model
  
- 4.- Simétricamente a StringIndexer, IndexToString
+ 4.- Symmetrically to StringIndexer, IndexToString
  
- 5.- Se instancia los DataFrame en la variable "data", el archivo debe estar estructurado al formato de trabajo
+ 5.- The DataFrame is instantiated in the variable "data", the file must be structured in the work format
  
- 6.- Se agrega una columna de indices, y se transformaran a datos numericos, para poder manipularlos
+ 6.- An index column is added, and they will be transformed to numerical data, to be able to manipulate them
  
- 7.- Se declararan 2 arreglos, se reparten de forma aleatoria
+ 7.- 2 arrangements will be declared, they are distributed randomly
  
- 8.- Se declara el Clasificador de árbol de decisión y se le agrega la columna que sera las etiquetas (indices) y los valores que cada   respectivo indice (caracteristicas)
+ 8.- The Decision Tree Classifier is declared and the column that will be the labels (indexes) and the values that each respective index (characteristics) is added to it.
  
- 9.- Convierte las etiquetas indexadas a las originales
+ 9.- Convert the indexed labels to the original
  
- 10.- Crea el DT pipeline Agregando los index, label y el arbol juntos
+ 10.- Create the DT pipeline Adding the index, label and the tree together
  
- 11.- Se entrena el modelo con los datos del arreglo "trainingData" que es el 70% de los datos totales
+ 11.- The model is trained with the data from the "trainingData" arrangement, which is 70% of the total data
  
- 12.-Se hacen las predicciones al tomar los datos sobrantes que se llevo "testData" que es el 30%
+ 12.-Predictions are made by taking the surplus data that was taken "testData" which is 30%
  
- 13.- Se manda a imprimir la etiqueta, sus respectivos valores y la prediccion de la etiqueta
+ 13.- The label, its respective values ​​and the prediction of the label are sent to print
  
- 14.- Evalua el modelo y retorna la  métrica escalar
+ 14.- Evaluate the model and return the scalar metric
  
- 15.- La variable "accuracy" tomara la acertación que hubo respecto a "predictedLabel" y "label"
+ 15.- The variable "accuracy" will take the correctness that there was regarding "predictedLabel" and "label"
  
- 16.- Se manda a imprimir el resultado de error con respecto a la exactitud
+ 16.- The error result regarding the accuracy is sent to print
  
- 17.- Se guarda en la variable
+ 17.- It is saved in the variable
  
- 18.- imprime el arbol de decisiones</H5>
+ 18.- print the decision tree</H5>
 
     import org.apache.spark.ml.Pipeline 
     import org.apache.spark.ml.classification.DecisionTreeClassificationModel 
@@ -125,7 +118,8 @@ Evaluation</a></li>
 
     predictions.select("predictedLabel", "label", "features").show(5)
 
-    val evaluator = new    MulticlassClassificationEvaluator().setLabelCol("indexedLabel").setPredictionCol("prediction").setMetricName("accuracy")
+    val evaluator = new
+    MulticlassClassificationEvaluator().setLabelCol("indexedLabel").setPredictionCol("prediction").setMetricName("accuracy")
 
     val accuracy = evaluator.evaluate(predictions)
 
@@ -144,33 +138,33 @@ Evaluation</a></li>
  Enciso Maldonado Aileen Yurely #15210329</H3>
 
  <H5 aling="center"> 
-1.- Se agregan las librerias del algortimo
+1.- The algorithm libraries are added
 
-2.- Se carga y se convierte en un DataFrame.
+2.- It is loaded and becomes a DataFrame.
 
-3.- Se ajusta a todo el conjunto de datos para incluir todas las etiquetas en el índice.
+3.- It adjusts to the entire data set to include all the labels in the index.
 
-4.- Se establecen el maxCategories para que las entidades con > 4 valores distintos se traten como continuas.
+4.- The maxCategories are established so that entities with> 4 different values ​​are treated as continuous.
 
-5.- Divide los datos en conjuntos de entrenamiento y prueba (30% para pruebas).
+5.- Divide the data into training and test sets (30% for tests).
 
-6.- Entrena un modelo RandomForest.
+6.- Train a RandomForest model.
 
-7.- Convierte las etiquetas indexadas de nuevo a etiquetas originales.
+7.- Convert the indexed labels back to original labels.
 
-8.- Convierte las etiquetas indexadas de nuevo a etiquetas originales.
+8.- Convert the indexed labels back to original labels.
 
-9.- Indicadores de cadena y bosque en una tubería.
+9.- Chain and forest indicators in a pipeline.
 
-10.- Indicadores de cadena y bosque en una tubería.
+10.- Chain and forest indicators in a pipeline.
 
-11.- Modelo de tren. Esto también ejecuta los indexadores.
+11.- Train model. This also runs the indexers.
 
-12.- Hacer predicciones.
+12.- Make predictions.
 
-13.- Seleccione filas de ejemplo para mostrar.
+13.- Select example rows to display.
 
-14.- Seleccione (predicción, etiqueta verdadera) y calcule el error de prueba.</H5>
+14.- Select (prediction, true label) and calculate the test error.</H5>
 
     import org.apache.spark.ml.Pipeline
     import org.apache.spark.ml.classification.{RandomForestClassificationModel, RandomForestClassifier}
@@ -197,7 +191,8 @@ Evaluation</a></li>
 
     predictions.select("predictedLabel", "label", "features").show(5)
 
-    val evaluator = new MulticlassClassificationEvaluator().setLabelCol("indexedLabel").setPredictionCol("prediction").setMetricName("accuracy")
+    val evaluator = new
+    MulticlassClassificationEvaluator().setLabelCol("indexedLabel").setPredictionCol("prediction").setMetricName("accuracy")
     val accuracy = evaluator.evaluate(predictions)
     println(s"Test Error = ${(1.0 - accuracy)}")
 
@@ -213,33 +208,35 @@ Evaluation</a></li>
  Enciso Maldonado Aileen Yurely #15210329</H3>
 
  <H5 aling="center">
- 1.- Se agregan las librerias del algortimo
+
+1.- The algorithm libraries are added
  
- 2.- Se carga los datos en la variable "data" en formato "libsvm"
+ 2.- The data is loaded in the variable "data" in "libsvm" format
  
- 3.- Se agrega una nueva columna "IndexLabel" que tendra todos los datos de la columna "label"
+ 3.- A new column "IndexLabel" is added that will have all the data of the column "label"
  
- 4.- Se agrega una nueva columna "indexedFeatures" que tendra todos los datos de la columna "features"
+ 4.- A new "indexedFeatures" column is added that will have all the data in the "features" column
  
- 5.- Se declaran dos arreglos; "trainingData" y "testData" de los cuales tendran 70% y 30% de los datos que fueron declarados en la  variable "data"
- 6.- Se declara el modelo y se agregan como parametros "indexedLabel" y "indexedFeatures", que son las etiquetas de cada clase
-y las caracteristicas de esa clase
-
- 7.- Se convierten las "indexedLabel" a las etiquetas originales
+ 5.- Two arrangements are declared; "trainingData" and "testData" of which will have 70% and 30% of the data that were declared in the   variable "data"
  
- 8.- Se declara el objeto "pipeline" en donde nos ayudara a pasar el codigo por estados, estos mismos estan declarados despues de "Array"
+ 6.- The model is declared and "indexedLabel" and "indexedFeatures" are added as parameters, which are the labels of each class
+  and the characteristics of that class
 
-9.- Se entrena el modelo con los datos de entrenamiento
+ 7.- The "indexedLabel" are converted to the original tags
+ 
+ 8.- The "pipeline" object is declared where it will help us to pass the code by states, these are declared after "Array"
 
-10.- Se hacen las predicciones con el modelos ya entrenado y con los datos de prueba que representan el 30%
+9.- The model is trained with the training data
 
-11.- Se mandan a imprimir o se seleccionan algunas columnas y se muestran solo las primerias 5
+10.- Predictions are made with the model already trained and with the test data representing 30%
 
-12.- Se evalua la precision y se agrega a una variable "accuracy"
+11.- Some columns are sent to print or selected and only the first 5 are shown
 
-13.- Se manda a imprimir el error de precision del modelo
+12.- Accuracy is evaluated and added to a variable "accuracy"
 
-14.- Se manda a imprimir el arbol por medio de condicionales "if and else"</H5>
+13.- The model precision error is sent to print
+
+14.- The tree is sent to print by means of conditionals "if and else"</H5>
 
     import org.apache.spark.ml.Pipeline
     import org.apache.spark.ml.classification.{GBTClassificationModel, GBTClassifier}
@@ -254,7 +251,8 @@ y las caracteristicas de esa clase
 
     val Array(trainingData, testData) = data.randomSplit(Array(0.7, 0.3))
 
-    val gbt = new GBTClassifier().setLabelCol("indexedLabel").setFeaturesCol("indexedFeatures").setMaxIter(10).setFeatureSubsetStrategy("auto")
+    val gbt = new
+    GBTClassifier().setLabelCol("indexedLabel").setFeaturesCol("indexedFeatures").setMaxIter(10).setFeatureSubsetStrategy("auto")
 
     val labelConverter = new IndexToString().setInputCol("prediction").setOutputCol("predictedLabel").setLabels(labelIndexer.labels)
 
@@ -266,7 +264,8 @@ y las caracteristicas de esa clase
 
     predictions.select("predictedLabel", "label", "features").show(5)
 
-    val evaluator = new    MulticlassClassificationEvaluator().setLabelCol("indexedLabel").setPredictionCol("prediction").setMetricName("accuracy")
+    val evaluator = new
+    MulticlassClassificationEvaluator().setLabelCol("indexedLabel").setPredictionCol("prediction").setMetricName("accuracy")
     val accuracy = evaluator.evaluate(predictions)
 
     println(s"Test Error = ${1.0 - accuracy}")
@@ -282,27 +281,28 @@ y las caracteristicas de esa clase
  Enciso Maldonado Aileen Yurely #15210329</H3>
 
  <H5 aling="center"> 
-1.- Se agregan las librerias del algortimo
+ 
+1.- The algorithm libraries are added
 
-2.- Se cargan los datos en la variable "data" en un formato "libsvm"
+2.- The data is loaded in the variable "data" in a "libsvm" format
 
-3.- Se declara un variable llamda "splits" donde se hacen los cortes de forma aleatoria de los datos de la variable "data"
+3.- A variable called "splits" is declared where the cuts of the data of the variable "data" are made at random.
 
-4.- Se declara la variable "train" donde con ayuda de "splits" tendra el primer parametro que es el 60% de los datos cortados
+4.- The variable "train" is declared where with the help of "splits" it will have the first parameter which is 60% of the cut data
 
-5.- Se declara la variable "test" donde con ayuda de "splits" tendra el primer parametro que es el 40% de los datos cortados
+5.- The variable "test" is declared where with the help of "splits" it will have the first parameter which is 40% of the cut data
 
-6.- Se especifican las capas de la red neuronal
+6.- The layers of the neural network are specified
 
-7.- Capa de entrada de tamaño 4 (características), dos intermedios de tamaño 5 y 4 y salida de tamaño 3 (clases)
+7.- Input layer of size 4 (characteristics), two intermediates of size 5 and 4 and output of size 3 (classes)
 
-8.- Se declara el modelo y se agregan los parametros necesarios para su funcionamiento
+8.- The model is declared and the necessary parameters for its operation are added
 
-9.- Se entrena el modelo con los datos de entrenamiento
+9.- The model is trained with the training data
 
-10.- Se evalua y despliega resultados
+10.- Results are evaluated and displayed
 
-11.- Se imprime el error de la precision</H5> 
+11.- The precision error is printed</H5> 
 
     import org.apache.spark.ml.classification.MultilayerPerceptronClassifier
     import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
@@ -336,17 +336,17 @@ y las caracteristicas de esa clase
 
  <H5 aling="center">
  
- 1.- importamos la libreria BAM!!! 
+1.- we import the BAM library !!!
 
- 2.-Carga los datos de entrenamiento de la base de datos de prueba
+ 2.-Load the training data from the test database
  
- 3.- Establede el maximo de interaciones y establecemos una region de parametros de 0.1
+ 3.- Set the maximum number of interactions and establish a region of parameters of 0.1
  
- 4.- Ajusta el modelo  a los datos de entrenamiento
+ 4.- Fit the model to the training data
  
- 5.- Imprime los coeficientes e interceta los valores para Linear SVM, maximixa la distancia entre los valores.
+ 5.- Print the coefficients and intercept the values ​​for Linear SVM, maximizing the distance between the values.
  
- 6.-  Imprime un Super BAM!!!</H5>
+ 6.- Print a Super BAM !!!</H5>
 
      import org.apache.spark.ml.classification.LinearSVC
 
@@ -372,26 +372,25 @@ y las caracteristicas de esa clase
  Enciso Maldonado Aileen Yurely #15210329</H3>
 
  <H5 aling="center"> 
+ 1.- All necessary libraries are imported
  
- 1.- Se importan todas la librerias necesarias
+ 2.- The algorithm libraries are added
  
- 2.- Se agregan las librerias del algortimo
+ 3.- 2 arrangements will be declared, one will have the training data and the other will have
  
- 3.- Se declararan 2 arreglos, uno tendra los datos de entrenamiento y el otro tendra
+ 4.- the test data, respectively, were declared as fixes and will have 80 and 20 percent of the total data
  
- 4.- los datos de prueba, respectivamente fueron declarados como arreglos y tendran el 80 y 20 porciento de los datos totales
+ 5.- The variable "classifier" that will make the regression is declared.
  
- 5.- Se declara la variable "classifier" que hara la regresion
+ 6.- The "OneVsRest" model is declared
  
- 6.- Se declara el modelo "OneVsRest"
+ 7.- The model is trained with the training data
  
- 7.- Se entrena el modelo con los datos de entrenamiento
+ 8.- Predictions are made with test data
  
- 8.- Se hacen las predicciones con los datos de prueba
+ 9.- The evaluator is declared who will take the precision of the model and save it in a metric variable called "accuracy"
  
- 9.- Se declara el evaluador que tomara la precision del modelo y lo guardara en una variable metrica llamada "accuracy"
- 
- 10.- Se calcula el error del modelo con una simple resta</H5>
+ 10.- The model error is calculated with a simple subtraction</H5>
 
     import org.apache.spark.ml.classification.{LogisticRegression, OneVsRest}
     import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
@@ -421,18 +420,18 @@ y las caracteristicas de esa clase
  Enciso Maldonado Aileen Yurely #15210329</H3>
 
  <H5 aling="center"> 
+ 
+1.- The algorithm libraries are added
 
-1.- Se agregan las librerias del algortimo
+2.- Load the data stored in LIBSVM format as a DataFrame.
 
-2.- Cargar los datos almacenados en formato LIBSVM como un DataFrame.
+3.- Divide the data into training and test sets (30% for tests)
 
-3.- Dividir los datos en conjuntos de entrenamiento y prueba (30% para pruebas)
+4.- Train a NaiveBayes model.
 
-4.- Entrena un modelo NaiveBayes.
+5.- Select example rows to display.
 
-5.- Seleccione filas de ejemplo para mostrar.
-
-6.- Seleccionar (predicción, etiqueta verdadera) y calcular error de prueba</H5>
+6.- Select (prediction, true label) and calculate test error</H5>
 
     import org.apache.spark.ml.classification.NaiveBayes
     import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
@@ -446,7 +445,8 @@ y las caracteristicas de esa clase
      val predictions = model.transform(testData)
      predictions.show()
 
-     val evaluator = new MulticlassClassificationEvaluator().setLabelCol("label").setPredictionCol("prediction").setMetricName("accuracy")
+     val evaluator = new
+     MulticlassClassificationEvaluator().setLabelCol("label").setPredictionCol("prediction").setMetricName("accuracy")
     val accuracy = evaluator.evaluate(predictions)
     println(s"Test set accuracy = $accuracy")
  
@@ -459,15 +459,15 @@ y las caracteristicas de esa clase
 
  <H5 aling="center">
 
-1.- impoetamos la paqueteria de regresion lineal
+1.- we import the linear regression package
 
-2.- Cargar datos de entrenamiento
+2.- Load training data
 
-3.- Ajustar el modelo
+3.- Fit the model
 
-4.- Imprime los coeficientes e intercepta para regresión lineal
+4.- Print the coefficients and intercept for linear regression
 
-5.- Resuma el modelo sobre el conjunto de entrenamiento e imprima algunas métricas</H5>
+5.- Summarize the model on the training set and print some metrics</H5>
 
     import org.apache.spark.ml.regression.LinearRegression
 
@@ -494,29 +494,29 @@ y las caracteristicas de esa clase
 
  <H5 aling="center">
 
-1.- importamos Librerias A Utilizar
+1.- we import Libraries To Use
 
-2.- Elimina varios avisos de warnings/errores inecesarios
+2.- Eliminate several warnings / unnecessary errors warnings
 
-3.- Iniciamos sesion en spark
+3.- We start session in spark
 
-4.- Creacion del dataframe para cargar el archivo csv
+4.- Creation of the dataframe to load the csv file
 
-5.- Imprimimos el esquema del dataframe para visualizarlo
+5.- We print the schematic of the dataframe to visualize it
 
-6.- Imprime la primera linea de datos del csv
+6.- Print the first line of csv data
 
-7.- Tomamos nuestros datos mas relevantes a una variables y tomamos clicked on ad como nuestra label
+7.- We take our most relevant data to a variable and we take clicked on ad as our label
 
-8.- Generamos nuestro vector de ensamble en un arrengo donde tomamos nuestros features
+8.- We generate our assembly vector in a rental where we take our features
 
-9.- Utilizamos la regresion lineal en nuestros datos con un 70% y 30% de datos.
+9.- We use linear regression in our data with 70% and 30% data.
 
-10.-Creacion del modelo
+10.-Creation of the model
 
-11.- Resultados de las pruebas con nuestro modelo
+11.- Test results with our model
 
-12.- Imprimimos nuestras metricas y la accuaricy de los calculos</H5>
+12.- We print our metrics and the accuaricy of the calculations</H5>
 
     import org.apache.spark.ml.feature.{VectorAssembler, StringIndexer, VectorIndexer, OneHotEncoder}
     import org.apache.spark.mllib.evaluation.MulticlassMetrics
@@ -539,12 +539,14 @@ y las caracteristicas de esa clase
     data.select("Clicked on Ad").show()
     val timedata = data.withColumn("Hour",hour(data("Timestamp")))
  
-    val logregdataall = timedata.select(data("Clicked on Ad").as("label"),$"Daily Time Spent on Site",$"Age",$"Area Income",$"Daily Internet Usage",$"Hour",$"Male")
+    val logregdataall = timedata.select(data("Clicked on Ad").as("label"),$"Daily Time Spent on Site",$"Age",$"Area Income",$"Daily
+    Internet Usage",$"Hour",$"Male")
     val feature_data = data.select($"Daily Time Spent on Site",$"Age",$"Area Income",$"Daily Internet Usage",$"Timestamp",$"Male")
     val logregdataal = (data.withColumn("Hour",hour(data("Timestamp")))
     val logregdataal = logregdataall.na.drop()
  
-    val assembler = new VectorAssembler().setInputCols(Array("Daily Time Spent on Site","Age","Area Income","Daily Internet Usage","Hour","Male")).setOutputCol("features")
+    val assembler = new VectorAssembler().setInputCols(Array("Daily Time Spent on Site","Age","Area Income","Daily Internet
+    Usage","Hour","Male")).setOutputCol("features")
  
     val Array(training, test) = logregdataall.randomSplit(Array(0.7, 0.3), seed = 12345)
     val lr = new LogisticRegression()
@@ -567,82 +569,82 @@ y las caracteristicas de esa clase
  
  Enciso Maldonado Aileen Yurely #15210329</H3>
 
-<H4>Principales tipos de algoritmos de Machine Learning</H4>
+<H4>Main types of Machine Learning algorithms</H4>
 
 <H5 aling="center"> 
 
-Algoritmos de Regresión
+Regression algorithms
 
-Los algoritmos de Regresión modelan la relación entre distintas variables (features) utilizando una medida de error que se intentará minimizar en un proceso iterativo para poder realizar predicciones «lo más acertadas posible». Se utilizan mucho en el análisis estadístico. El ejemplo clásico es la predicción de precios de Inmuebles a partir de sus características: cantidad de ambientes del piso, barrio, distancia al centro, metros cuadrados del piso, etc.
-Los Algoritmos más usados de Regresión son:
-•	Regresión Lineal. 
-•	Regresión Logística.
+Regression algorithms model the relationship between different variables (features) using an error measure that will be tried to minimize in an iterative process in order to make predictions "as accurate as possible". They are widely used in statistical analysis. The classic example is the prediction of Real Estate prices based on their characteristics: number of rooms in the apartment, neighborhood, distance to the center, square meters of the apartment, etc.
+The most used Regression Algorithms are:
+•	Linear regression.
+•	Logistic regression.
 
 
-Algoritmos basados en Instancia
+Instance-based algorithms
 
-Son Modelos de Aprendizaje para problemas de decisión con instancias o ejemplos (muestras) de datos de entrenamiento que son importantes o requeridos por el modelo.
-También son llamados Algoritmos «Ganador se lleva todo» y aprendizaje basado-en-memoria en el que se crea un modelo a partir de una base de datos y se agregan nuevos datos comparando su similitud con las muestras ya existentes para encontrar «la mejor pareja» y hacer la predicción.
-Los Algoritmos basados en instancia más usados son:
-•	k-Nearest Neighbor (kNN).
-•	Self-Organizing Map.
+They are Learning Models for decision problems with instances or examples (samples) of training data that are important or required by the model.
+They are also called "Winner Takes All" algorithms and memory-based learning in which a model is created from a database and new data is added comparing their similarity with existing samples to find "the best match »And make the prediction.
+The most used instance-based algorithms are:
+• k-Nearest Neighbor (kNN).
+• Self-Organizing Map.
 
-Algoritmos de Árbol de Decisión
+Decision Tree Algorithms
 
-Modelan la toma de Decisión basado en los valores actuales (reales) de los atributos que tienen nuestros datos. Se utilizan sobre todo para clasificación de información, bifurcando y modelando los posibles caminos tomados y su probabilidad de ocurrencia para mejorar su precisión. Una vez armados, los arboles de decisión ejecutan muy rápido para obtener resultados.
-Los Algoritmos de árbol de decisión más usados son:
-•	Arboles de Clasificación y Regresión (CART) 
-•	Decisión de Arbol condicional
-•	Random Forest 
+They model Decision making based on the current (actual) values ​​of the attributes that our data has. They are mainly used for information classification, bifurcating and modeling the possible paths taken and their probability of occurrence to improve their precision. Once assembled, decision trees run very fast to get results.
+The most used decision tree algorithms are:
+• Classification and Regression Trees (CART)
+• Conditional Tree Decision
+• Random Forest
 
-Algoritmos Bayesianos
+Bayesian algorithms
 
-Son algoritmos que utilizan explícitamente el Teorema de Bayes de probabilidad para problemas de Clasificación y Regresión.
-Los más utilizados son:
-•	Naive Bayes
-•	Gaussian Naive Bayes 
-•	Multinomial Naive Bayes
-•	Bayesian Network
+They are algorithms that explicitly use the Bayes Probability Theorem for Classification and Regression problems.
+The most used are:
+• Naive Bayes
+• Gaussian Naive Bayes
+• Multinomial Naive Bayes
+• Bayesian Network
 
-Algoritmos de Clustering (agrupación)
+Clustering algorithms (grouping)
 
-Se utilizan para agrupar datos existentes de los que desconocemos sus características en común o queremos descubrirlas.
-Estos métodos intentan crear «puntos centrales» y jerarquías para diferenciar grupos y descubrir características comunes por cercanía.
-Los más utilizados son:
-•	K-Means 
-•	K-Medians
-•	Hierarchical Clustering
+They are used to group existing data of which we do not know their characteristics in common or want to discover them.
+These methods attempt to create "center points" and hierarchies to differentiate groups and discover common characteristics by closeness.
+The most used are:
+• K-Means
+• K-Medians
+• Hierarchical Clustering
 
-Algoritmos de Redes Neuronales
+Neural Network Algorithms
 
-Son algoritmos y estructuras inspirados en las funciones biológicas de las redes neuronales. Se suelen utilizar para problemas de 
-Clasificación y Regresión, pero realmente tienen un gran potencial para resolver multitud de problemáticas. Son muy buenas para detectar patrones. Las Redes Neuronales Artificiales requieren mucha capacidad de procesamiento y memoria y estuvieron muy limitadas por la tecnología del pasado hasta estos últimos años en los que resurgieron con mucha fuerza dando lugar al Aprendizaje Profundo (se detalla más adelante).
+They are algorithms and structures inspired by the biological functions of neural networks. They are usually used for problems of
+Classification and Regression, but they really have great potential to solve a multitude of problems. They are very good at spotting patterns. Artificial Neural Networks require a lot of memory and processing capacity and were very limited by the technology of the past until these last years in which they re-emerged with great force giving rise to Deep Learning (detailed below).
 
-Las redes neuronales básicas y clásicas son:	
-•	Compuerta XOR.
-•	Perceptron.
-•	Back-Propagation.
-•	Hopfield Network 
-•	MLP: Multi Layered Perceptron.
+The basic and classic neural networks are:
+• XOR gate.
+• Perceptron.
+• Back-Propagation.
+• Hopfield Network
+• MLP: Multi Layered Perceptron.
 
-Algoritmos de Aprendizaje Profundo
+Deep Learning Algorithms
 
-Son la evolución de las Redes Neuronales Artificiales que aprovechan el abaratamiento de la tecnología y la mayor capacidad de ejecución, memoria y disco para explotar gran cantidad de datos en enormes redes neuronales interconectarlas en diversas capas que pueden ejecutar en paralelo para realizar cálculos. Comprende mejor Deep Learning con esta guía rápida que escribí.
-Los algoritmos más populares de Deep Learning son:
-•	Convolutional Neural Networks.
-•	Long Short Term Memory Neural Networks.
+They are the evolution of Artificial Neural Networks that take advantage of the cheaper technology and the greater execution capacity, memory and disk to exploit large amounts of data in huge neural networks, interconnecting them in different layers that can be executed in parallel to perform calculations. Get a better understanding of Deep Learning with this quick guide I wrote.
+The most popular Deep Learning algorithms are:
+• Convolutional Neural Networks.
+• Long Short Term Memory Neural Networks.
 
-Algoritmos de Reducción de Dimensión
+Dimension Reduction Algorithms
 
-Buscan explotar la estructura existente de manera no supervisada para simplificar los datos y reducirlos o comprimirlos.
-Son útiles para visualizar datos o para simplificar el conjunto de variables que luego pueda usar un algoritmo supervisado.
-Los más utilizados son:
-•	Principal Component Analysis (PCA).
-•	t-SNE (próximamente artículo). 
+They seek to exploit the existing structure in an unsupervised way to simplify the data and reduce or compress it.
+They are useful for visualizing data or for simplifying the set of variables that can then be used by a supervised algorithm.
+The most used are:
+• Principal Component Analysis (PCA).
+• t-SNE (soon article).
 
-Procesamiento del Lenguaje Natural (NLP)
+Natural Language Processing (NLP)
 
-El Natural Language Processing es una mezcla entre DataScience, Machine Learning y Lingüística. Tiene como objetivo comprender el lenguaje humano. Tanto en textos como en discurso/voz. Desde analizar sintáctica ó gramáticamente miles contenidos, clasificar automáticamente en temas, los chatbots y hasta generar poesía imitando a Shakespeare. También es común utilizarlo para el Análisis de Sentimientos en redes sociales, (por ejemplo, con respecto a un político) y la traducción automática entre idiomas. Asistentes como Siri, Cortana y la posibilidad de preguntar y obtener respuest </H5>
+Natural Language Processing is a mix between DataScience, Machine Learning and Linguistics. It aims to understand human language. Both in texts and in speech / voice. From analyzing syntactically or grammatically thousands of contents, automatically classifying into themes, chatbots and even generating poetry imitating Shakespeare. It is also common to use it for Sentiment Analysis on social media, (for example, regarding a politician) and machine translation between languages. Assistants like Siri, Cortana and the possibility to ask and get answers </H5>
   
  # Research2
  <H3 aling="center">
@@ -657,39 +659,39 @@ El Natural Language Processing es una mezcla entre DataScience, Machine Learning
 
 VectorAssembler
 
-VectorAssembleres un transformador que combina una lista dada de columnas en una sola columna vectorial. Es útil para combinar características sin procesar y características generadas por diferentes transformadores de características en un solo vector de características, con el fin de entrenar modelos ML como la regresión logística y los árboles de decisión. VectorAssembleracepta los siguientes tipos de columnas de entrada: todos los tipos numéricos, tipo booleano y tipo vectorial. En cada fila, los valores de las columnas de entrada se concatenarán en un vector en el orden especificado.
+VectorAssembleres a transformer that combines a given list of columns into a single vector column. It is useful for combining raw features and features generated by different feature transformers into a single feature vector, in order to train ML models such as logistic regression and decision trees. VectorAssemble accepts the following types of input columns: all numeric types, boolean type and vector type. In each row, the values ​​in the input columns will be concatenated into a vector in the specified order.
 
 Vector
 
-En física, un vector1 es un ente matemático como la recta o el plano. Un vector se representa mediante un segmento de recta, orientado dentro del espacio euclidiano tridimensional. El vector tiene 3 elementos: módulo, dirección y sentido.  Los vectores nos permiten representar magnitudes físicas vectoriales, como las mencionadas líneas abajo.
-En matemáticas se define vector como un elemento de un espacio vectorial. Esta noción es más abstracta y para muchos espacios vectoriales no es posible representar sus vectores mediante el módulo y la dirección. En particular los espacios de dimensión infinita sin producto escalar no son representables de ese modo. Los vectores en un espacio euclídeo se pueden representar geométricamente como segmentos de recta R, en el plano R2 o en el espacio R3
-Algunos ejemplos de magnitudes físicas que son magnitudes vectoriales: la velocidad con que se desplaza un móvil, ya que no queda definida tan solo por su módulo que es lo que marca el velocímetro, en el caso de un automóvil, sino que se requiere indicar la dirección (hacia donde se dirige), la fuerza que actúa sobre un objeto, ya que su efecto depende además de su magnitud o módulo, de la dirección en la que actúa; también, el desplazamiento de un objeto, pues es necesario definir el punto inicial y final del movimiento.
+In physics, a vector1 is a mathematical entity like the line or the plane. A vector is represented by a line segment, oriented within the three-dimensional Euclidean space. The vector has 3 elements: module, direction and sense. Vectors allow us to represent vector physical quantities, such as those mentioned below.
+In mathematics vector is defined as an element of a vector space. This notion is more abstract and for many vector spaces it is not possible to represent their vectors by modulus and direction. In particular, spaces of infinite dimension without scalar product are not representable in this way. Vectors in a Euclidean space can be represented geometrically as line segments R, in plane R2 or in space R3
+Some examples of physical quantities that are vector quantities: the speed with which a mobile travels, since it is not defined only by its module, which is what the speedometer marks, in the case of a car, but it is required to indicate the direction (towards which it is directed), the force acting on an object, since its effect depends in addition to its magnitude or modulus, on the direction in which it acts; also, the displacement of an object, since it is necessary to define the starting and ending point of the movement.
 
-RMSE: error cuadrático medio de raíz
+RMSE: root mean square error
 
-El error cuadrático medio (RMSE) es la desviación estándar de los residuos (errores de predicción). Los residuos son una medida de qué tan lejos están los puntos de datos de la línea de regresión; RMSE es una medida de la dispersión de estos residuos. En otras palabras, le dice qué tan concentrados están los datos alrededor de la línea de mejor ajuste. El error cuadrático medio se usa comúnmente en climatología, predicción y análisis de regresión para verificar resultados experimentales.
-La fórmula es:
+The root mean square error (RMSE) is the standard deviation of the residuals (prediction errors). The residuals are a measure of how far the data points are from the regression line; RMSE is a measure of the dispersion of these residues. In other words, it tells you how concentrated the data is around the best-fit line. The root mean square error is commonly used in climatology, prediction, and regression analysis to verify experimental results.
+The formula is:
 
-Donde:
-•	f = pronósticos (valores esperados o resultados desconocidos),
-•	o= valores observados (resultados conocidos).
+Where:
+• f = forecasts (expected values or unknown results),
+• o = observed values (known results).
 
-La barra sobre las diferencias al cuadrado es la media (similar a x̄). La misma fórmula se puede escribir con la siguiente notación, ligeramente diferente (Barnston, 1992):
+The bar over the squared differences is the mean (similar to x̄). The same formula can be written with the following slightly different notation (Barnston, 1992):
 
-Donde:
-Σ = sumatoria ("suma")
-(z f i - Z o i ) Sup > 2 = diferencias, al cuadrado
-N = tamaño de muestra.
+Where:
+Σ = summation ("sum")
+(z f i - Z o i) Sup> 2 = differences, squared
+N = sample size.
 
-Puede usar la fórmula con la que se sienta más cómodo, ya que ambos hacen lo mismo. Si no le gustan las fórmulas, puede encontrar el RMSE:
-•	Cuadrando los residuos.
-•	Encontrar el promedio de los residuos.
-•	Tomando la raíz cuadrada del resultado.
+You can use whatever formula you feel most comfortable with, as they both do the same thing. If you don't like formulas, you can find the RMSE:
+• Squaring the residuals.
+• Find the average of the residuals.
+• Taking the square root of the result.
 
-Dicho esto, esto puede ser mucho cálculo, dependiendo de qué tan grandes sean sus datos. Un atajo para encontrar el error cuadrático medio es:
+That said, this can be a lot of calculation, depending on how big your data is. A shortcut to find the mean square error is:
 
-Donde SD y es la desviación estándar de Y.
-Cuando se utilizan observaciones y pronósticos estandarizados como entradas RMSE, existe una relación directa con el coeficiente de correlación. Por ejemplo, si el coeficiente de correlación es 1, el RMSE será 0, porque todos los puntos se encuentran en la línea de regresión (y, por lo tanto, no hay errores)
+Where SD y is the standard deviation of Y.
+When standardized observations and forecasts are used as RMSE inputs, there is a direct relationship to the correlation coefficient. For example, if the correlation coefficient is 1, the RMSE will be 0, because all the points are on the regression line (and therefore there are no errors)
   
 </H5>  
 
@@ -700,28 +702,29 @@ Cuando se utilizan observaciones y pronósticos estandarizados como entradas RMS
  
  Enciso Maldonado Aileen Yurely #15210329</H3>
  
- <H4>Pipeline y Matriz De Confusión</H4>
+ <H4>Pipeline and Confusion Matrix</H4>
 
  <H5 aling="center"> 
 
-Definición De Pipeline
 
-Pipeline es un término inglés que puede traducirse como “tubería”. Aunque no forma parte del diccionario de la Real Academia Española 
-(RAE), el concepto se utiliza en nuestra lengua para hacer referencia a una arquitectura de la informática.
+Pipeline Definition
 
-En Arquitectura de Computadoras
+Pipeline is an English term that can be translated as "pipeline". Although it is not part of the dictionary of the Royal Spanish Academy
+(RAE), the concept is used in our language to refer to a computing architecture.
 
-El pipeline es una técnica para implementar simultaneidad a nivel de instrucciones dentro de un solo procesador. Pipelining intenta mantener ocupada a cada parte del procesador, dividiendo las instrucciones entrantes en una serie de pasos secuenciales, que se realizan por diferentes unidades del procesador que trabajan de forma simultánea. Aumenta el rendimiento de la CPU a una velocidad de reloj determinada, aunque puede aumentar la latencia debido a la sobrecarga adicional del proceso de pipeline en sí.
+In Computer Architecture
 
-En informática y programación
+The pipeline is a technique for implementing instruction-level concurrency within a single processor. Pipelining tries to keep each part of the processor busy, dividing the incoming instructions into a series of sequential steps, which are performed by different processor units that work simultaneously. It increases CPU performance at a certain clock speed, although it can increase latency due to the additional overhead of the pipeline process itself.
 
-La arquitectura en pipeline (basada en filtros) consiste en ir transformando un flujo de datos en un proceso comprendido por varias fases secuenciales, siendo la entrada de cada una la salida de la anterior. Esta arquitectura es muy común en el desarrollo de programas para el intérprete de comandos, ya que se pueden conectar comandos fácilmente con tuberías (pipe).
-También es una arquitectura muy natural en el paradigma de programación funcional, ya que equivale a la composición de funciones matemáticas.
+In computing and programming
 
-Matriz de confusión
+The pipeline architecture (based on filters) consists in transforming a data flow into a process comprised of several sequential phases, the input of each being the output of the previous one. This architecture is very common in the development of programs for the command interpreter, since you can easily connect commands with pipes (pipe).
+It is also a very natural architecture in the functional programming paradigm, since it is equivalent to the composition of mathematical functions.
 
-En el campo de la inteligencia artificial una matriz de confusión es una herramienta que permite la visualización del desempeño de un algoritmo que se emplea en aprendizaje supervisado. Cada columna de la matriz representa el número de predicciones de cada clase, mientras que cada fila representa a las instancias en la clase real. Uno de los beneficios de las matrices de confusión es que facilitan ver si el sistema está confundiendo dos clases.
-Si en los datos de entrada el número de muestras de clases diferentes cambia mucho la tasa de error del clasificador no es representativa de lo bien que realiza la tarea el clasificador. Si por ejemplo hay 990 muestras de la clase 1 y sólo 10 de la clase 2, el clasificador puede tener fácilmente un sesgo hacia la clase  1. Si el clasificador clasifica todas las muestras como clase 1 su precisión será del 99%. Esto no significa que sea un buen    clasificador, pues tuvo un 100% de error en la clasificación de las muestras de la clase 2.
+Confusion matrix
 
-En el matriz ejemplo que aparece a continuación, de 8 gatos reales, el sistema predijo que tres eran perros y de seis perros predijo que uno era un conejo y dos eran gatos. A partir de la matriz se puede ver que el sistema tiene problemas distinguiendo entre gatos y perros, pero que puede distinguir razonablemente bien entre conejos y otros animales. 
+In the field of artificial intelligence, a confusion matrix is ​​a tool that allows the visualization of the performance of an algorithm that is used in supervised learning. Each column in the array represents the number of predictions for each class, while each row represents the instances in the actual class. One of the benefits of confusion matrices is that they make it easy to see if the system is confusing two classes.
+If the number of samples from different classes changes a lot in the input data, the error rate of the classifier is not representative of how well the classifier performs the task. If for example there are 990 samples from class 1 and only 10 from class 2, the classifier can easily have a bias towards class 1. If the classifier classifies all the samples as class 1, its precision will be 99%. This does not mean that it is a good classifier, as it had a 100% error in classifying class 2 samples.
+
+In the example matrix below, of 8 real cats, the system predicted that three were dogs and out of six dogs predicted that one was a rabbit and two were cats. From the matrix it can be seen that the system has trouble distinguishing between cats and dogs, but that it can reasonably well distinguish between rabbits and other animals. 
  </H5> 
