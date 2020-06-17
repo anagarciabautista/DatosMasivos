@@ -1,9 +1,4 @@
- 
-<H3 aling="center">
 
- Garcia Bautista Ana Laura #15210793
- 
- Enciso Maldonado Aileen Yurely #15210329</H3>
  
  <H2> Test 3 </H2>
  
