@@ -22,7 +22,6 @@
 <H4><p align="justify">SVMs are one of the most powerful machine learning techniques. It consists of building a hyperplane in a space of very high (or even infinite) dimensionality that separates the classes we have. A good separation between the classes will allow a correct classification of the new sample, that is, we need to find the maximum separation to the points closest to this hyperplane.
 
 The objective of classification problems applying this type of supervised learning algorithms is as follows; Given a training set with its class labels, train an SVM to build a model that predicts the class of a new sample or test set.</p></H4>
-
 <div align="center"><img src="https://1.bp.blogspot.com/_jqWZ1wzdpTQ/SNMNvTDeT9I/AAAAAAAAAAQ/YjJ5OKnD6bs/s320/Dibujo.JPG"></div>
 
 <H3>Decision Three Algorithm</H3>
@@ -30,7 +29,6 @@ The objective of classification problems applying this type of supervised learni
 <H4><p align="justify">Decision Tree or Decision Tree Classification is a type of supervised learning algorithm that is mainly used in classification problems, although it works for categorical input and output variables as continuous.
 
 Tree-based learning algorithms are considered one of the best and most widely used supervised learning methods. Tree-based methods power predictive models with high precision, stability, and ease of interpretation. Unlike linear models, they map nonlinear relationships quite well.</p></H4>
-
 <div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/CART_tree_titanic_survivors.png"></div>
 
 <H3>Logistic Regression algorithm<H/3>
@@ -38,7 +36,6 @@ Tree-based learning algorithms are considered one of the best and most widely us
 <H4><p align="justify">Logistic Regression or Logistic Regression is a classification algorithm that is used to predict the probability of a categorical dependent variable. Like all regression analyzes, logistic regression is predictive analysis. It is used to describe data and explain the relationship between a dependent binary variable and one or more independent nominal, interval, interval, or ratio level variables.
 
 This binary logistic model is used to estimate the probability of a binary response based on one or more independent or predictive variables. Lets say that the presence of a risk factor increases the probability of a result given a specific percentage.</p></H4>
-
 <div align="center"><img src="https://i2.wp.com/ligdigonzalez.com/wp-content/uploads/2018/03/Logistic-Regression-1-300x119.png?resize=300%2C119"></div>
 
 <H3>Perceptron Multilayer Algorithm</H3>
@@ -46,7 +43,6 @@ This binary logistic model is used to estimate the probability of a binary respo
 <H4><p align="justify">El perceptrón multicapa es el hola mundo del aprendizaje profundo: un buen lugar para comenzar cuando estás aprendiendo sobre el aprendizaje profundo.
 
 Un perceptrón multicapa (MLP) es una red neuronal profunda y artificial. Está compuesto por más de un perceptrón. Están compuestos por una capa de entrada para recibir la señal, una capa de salida que toma una decisión o predicción sobre la entrada, y entre esos dos, un número arbitrario de capas ocultas que son el verdadero motor computacional del MLP. Los MLP con una capa oculta son capaces de aproximar cualquier función continua.</p></H4>
-
 <div align="center"><img src="https://www.researchgate.net/publication/259319882/figure/fig3/AS:667043535810572@1536046980868/Structure-of-a-typical-3-layer-feed-forward-multilayer-perceptron-artificial-neural.png"></div>
 
 <H2>IMPLEMENTATION</H2>
@@ -54,18 +50,16 @@ Un perceptrón multicapa (MLP) es una red neuronal profunda y artificial. Está 
 <H3>Apche Spark</H3>
 
 <H4><p align="justify">Spark is an ultra-fast engine for storing, processing, and analyzing large volumes of data. It is open source and is managed by the Apache Software Foundation. Therefore the tool is known as Apache Spark and it is one of their most active projects</p></H4>
-
 <div align="center"><img src="https://www.vermilion.com.co/img/clients/client-10.png"></div>
 
 <H3>Visual Studio Code</H3>
 
 <H4><p align="justify">This software was used as interpretation of scala language</p></H4>
-
 <div align="center"><img src="https://sobrebits.com/wp-content/uploads/2018/10/Visual-Studio-Code-para-PowerShell.png"></div>
 
 <H2>RESULT</H2>
 
-<H2>Conclusion</H2>
+<H2>CONCLUSION</H2>
 
 <H4><p align="justify">As a result of our project based on machine learning algorithms, we witnessed that the most efficient algorithm is the Multiplayer Perception because it was the one that gave us the least time to analyze data and with the best perception when processing the dataset and classified us as 85% of the data used in a correct way this work was done for the massive data subject taught by the teacher José Christian Romero Hernández</p></H4>
 
