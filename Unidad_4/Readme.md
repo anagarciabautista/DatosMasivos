@@ -11,7 +11,7 @@
  
  <H2>INTRODUCTION</H2>
 
-</H4><p align="justify">In this work, a data analysis is carried out, which is a massive data implementation most used today due to the amount of data that is handled today, which is a large amount of data to analyze, so when comparing the Logistic Regression algorithms, Decision three, Multilayer Perceptron, are the algorithms that we intend to use to carry out this investigation. Based on these algorithms, it is intended to make an analysis of the data of a banking system to analyze which algorithm can be more efficient for the banking system based on its behavior. To carry out the comparison of the work, I use the Spark-Scala tool that helps us to have a better control of our data to use.</p></H4>
+</H4><p align="justify"> In this work, a data analysis is carried out, which is a massive data implementation most used today due to the amount of data that is handled today, which is a large amount of data to analyze, so when comparing the Logistic Regression algorithms, Decision three, Multilayer Perceptron, are the algorithms that we intend to use to carry out this investigation. Based on these algorithms, it is intended to make an analysis of the data of a banking system to analyze which algorithm can be more efficient for the banking system based on its behavior. To carry out the comparison of the work, I use the Spark-Scala tool that helps us to have a better control of our data to use.</p></H4>
 
 <H2>THEORETICAL FRAREWORK</H2>
 
