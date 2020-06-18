@@ -11,11 +11,11 @@
  
  <H2>INTRODUCTION</H2>
 
-</H4><p align="justify"> In this work, a data analysis is carried out, which is a massive data implementation most used today due to the amount of data that is handled today, which is a large amount of data to analyze, so when comparing the Logistic Regression algorithms, Decision three, Multilayer Perceptron, are the algorithms that we intend to use to carry out this investigation. Based on these algorithms, it is intended to make an analysis of the data of a banking system to analyze which algorithm can be more efficient for the banking system based on its behavior. To carry out the comparison of the work, I use the Spark-Scala tool that helps us to have a better control of our data to use.</p></H4>
+</H4><p align="justify">In this work, a data analysis is carried out, which is a massive data implementation most used today due to the amount of data that is handled today, which is a large amount of data to analyze, so when comparing the Logistic Regression algorithms, Decision three, Multilayer Perceptron, are the algorithms that we intend to use to carry out this investigation. Based on these algorithms, it is intended to make an analysis of the data of a banking system to analyze which algorithm can be more efficient for the banking system based on its behavior. To carry out the comparison of the work, I use the Spark-Scala tool that helps us to have a better control of our data to use.</p></H4>
 
 <H2>THEORETICAL FRAREWORK</H2>
 
-<H4><p align="justify">HNowadays, data analysis is one of the most common when it is necessary to analyze large data, which is why in this data analysis of a banking system a supervised system classification will be made, which is defined as classes or base label to the data to analyze. In order to determine which algorithm favors the banking system, the time and pressure of each algorithm will be analyzed. Based on our work, the data provided by the banking system is a set of data that the banking system will analyze in order to have better control of its system.</p></H4>
+<H4><p align="justify">Nowadays, data analysis is one of the most common when it is necessary to analyze large data, which is why in this data analysis of a banking system a supervised system classification will be made, which is defined as classes or base label to the data to analyze. In order to determine which algorithm favors the banking system, the time and pressure of each algorithm will be analyzed. Based on our work, the data provided by the banking system is a set of data that the banking system will analyze in order to have better control of its system.</p></H4>
 
 <H3>SVM algorithm</H3>
 
