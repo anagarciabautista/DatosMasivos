@@ -30,7 +30,7 @@
 
 The objective of classification problems applying this type of supervised learning algorithms is as follows; Given a training set with its class labels, train an SVM to build a model that predicts the class of a new sample or test set.</H4>
 
-<img src="https://1.bp.blogspot.com/_jqWZ1wzdpTQ/SNMNvTDeT9I/AAAAAAAAAAQ/YjJ5OKnD6bs/s320/Dibujo.JPG">
+<div align="center"><img src="https://1.bp.blogspot.com/_jqWZ1wzdpTQ/SNMNvTDeT9I/AAAAAAAAAAQ/YjJ5OKnD6bs/s320/Dibujo.JPG"></div>
 
 <H3>Decision Three Algorithm</H3>
 
@@ -38,7 +38,7 @@ The objective of classification problems applying this type of supervised learni
 
 Tree-based learning algorithms are considered one of the best and most widely used supervised learning methods. Tree-based methods power predictive models with high precision, stability, and ease of interpretation. Unlike linear models, they map nonlinear relationships quite well.</H4>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/CART_tree_titanic_survivors.png">
+<div align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/CART_tree_titanic_survivors.png"></div>
 
 <H3>Logistic Regression algorithm<H/3>
 
@@ -46,7 +46,7 @@ Tree-based learning algorithms are considered one of the best and most widely us
 
 This binary logistic model is used to estimate the probability of a binary response based on one or more independent or predictive variables. Lets say that the presence of a risk factor increases the probability of a result given a specific percentage.</H4>
 
-<img src="https://i2.wp.com/ligdigonzalez.com/wp-content/uploads/2018/03/Logistic-Regression-1-300x119.png?resize=300%2C119">
+<div align="center"><img src="https://i2.wp.com/ligdigonzalez.com/wp-content/uploads/2018/03/Logistic-Regression-1-300x119.png?resize=300%2C119"></div>
 
 <H3>Perceptron Multilayer Algorithm</H3>
 
@@ -54,7 +54,7 @@ This binary logistic model is used to estimate the probability of a binary respo
 
 Un perceptrón multicapa (MLP) es una red neuronal profunda y artificial. Está compuesto por más de un perceptrón. Están compuestos por una capa de entrada para recibir la señal, una capa de salida que toma una decisión o predicción sobre la entrada, y entre esos dos, un número arbitrario de capas ocultas que son el verdadero motor computacional del MLP. Los MLP con una capa oculta son capaces de aproximar cualquier función continua.</H4>
 
-<img src="https://www.researchgate.net/publication/259319882/figure/fig3/AS:667043535810572@1536046980868/Structure-of-a-typical-3-layer-feed-forward-multilayer-perceptron-artificial-neural.png">
+<div align="center"><img src="https://www.researchgate.net/publication/259319882/figure/fig3/AS:667043535810572@1536046980868/Structure-of-a-typical-3-layer-feed-forward-multilayer-perceptron-artificial-neural.png"></div>
 
 <H2>IMPLEMENTATION</H2>
  
@@ -62,13 +62,13 @@ Un perceptrón multicapa (MLP) es una red neuronal profunda y artificial. Está 
 
 <H4>Spark is an ultra-fast engine for storing, processing, and analyzing large volumes of data. It is open source and is managed by the Apache Software Foundation. Therefore the tool is known as Apache Spark and it is one of their most active projects</H4>
 
-<img src="https://www.vermilion.com.co/img/clients/client-10.png">
+<div align="center"><img src="https://www.vermilion.com.co/img/clients/client-10.png"></div>
 
 <H3>Visual Studio Code</H3>
 
 <H4>This software was used as interpretation of scala language</H4>
 
-<img src="https://sobrebits.com/wp-content/uploads/2018/10/Visual-Studio-Code-para-PowerShell.png">
+<div align="center"><img src="https://sobrebits.com/wp-content/uploads/2018/10/Visual-Studio-Code-para-PowerShell.png"></div>
 
 <H2>RESULT</H2>
 
