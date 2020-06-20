@@ -1,13 +1,13 @@
  <H1> Test </H1>
  
- <H2>Index</H2>
+ <div align="center"><H2>Index</H2>
  <H3>Introduction</H3>
  <H3>theoretical framework</H3>
  <H3>Implementation</H3>
  <H3>Result</H3>
  <H3>Conclusion</H3>
  <H3>References</H3>
- <H1>INFORMATION</H1>
+ <H1>INFORMATION</H1></div>
  
  <H2>INTRODUCTION</H2>
 
@@ -58,6 +58,64 @@ Un perceptrón multicapa (MLP) es una red neuronal profunda y artificial. Está 
 <div align="center"><img src="https://sobrebits.com/wp-content/uploads/2018/10/Visual-Studio-Code-para-PowerShell.png"></div>
 
 <H2>RESULT</H2>
+
+<H3>SVM</H3>
+
+<H4><p align="justify">The SVM code allows us to find a category associated with the data sets since this algorithm is a model based on data predictions and to be able to organize by categories.</p></H4>
+
+    import org.apache.spark.ml.classification.LinearSVC
+    val change = df.withColumnRenamed("y", "label")
+    val ft = change.select("label","features")
+    ft.show()
+    val cs1 = ft.withColumn("1abel",when(col("label").equalTo("1"),0).otherwise(col("label")))
+    val cs2 = cs1.withColumn("label",when(col("label").equalTo("2"),1).otherwise(col("label")))
+    val cs3 = cs2.withColumn("label",'label.cast("Int"))
+    val lsvc = new LinearSVC().setMaxIter(10).setRegParam(0.1)
+    val lsvcModel = lsvc.fit(cs3)
+    println(s"Coefficients: ${lsvcModel.coefficients} Intercept: ${lsvcModel.intercept}")
+
+<H3>Decision Three</H3>
+
+<H4><p align="justify">In this algorithm, it predicts us in a data set using decision trees based on these classifications, it predicts and categorizes the data depending on its classification by the algorithm.</p></H4>
+
+    import org.apache.spark.ml.Pipeline
+    import org.apache.spark.ml.evaluation.RegressionEvaluator
+    import org.apache.spark.ml.regression.DecisionTreeRegressionModel
+    import org.apache.spark.ml.regression.DecisionTreeRegressor
+
+    val featureIndexer = new VectorIndexer().setInputCol("features").setOutputCol("indexedFeatures").setMaxCategories(4).fit(c55)
+    val Array(trainingData, testData) = c55.randomSplit(Array(0.7, 0.3))
+    val dt = new DecisionTreeRegressor().setLabelCol("label").setFeaturesCol("indexedFeatures")
+    val pipeline = new Pipeline().setStages(Array(featureIndexer, dt))
+    val model43 = pipeline.fit(trainingData)
+    val predictions = model.transform(testData)
+    predictions.select("prediction", "label", "features").show(5)
+
+<H3>Logistic Regression</H3>
+
+<H4><p align="justify">In this algorithm we will be able to see the statistical analysis of the linear regression that, like the others, will categorize the data depending on it, and in turn will limit us to a certain number of numbers, but it shows us how essential it is to be able to categorize and predict our data in linear sets.</p></H4>
+
+    val evaluator = new RegressionEvaluator().setLabelCol("label").setPredictionCol("prediction").setMetricName("rmse")
+    val  e4= predictions.withColumn("prediction",'prediction.cast("Double"))
+    val rmse = evaluator.evaluate(e4)
+    println(s"Root Mean Squared Error (RMSE) on test data = $rmse")
+
+<H3>Multilayer Perceptron<H/3>
+
+<H4><p align="justify">In this algorithm, precision is carried out through layers, separating the data and categorizing them depending on the problem established by the data, since they cannot be separated in a line manner, but as mentioned that the categorization by layers and prediction of the data is carried out. easier and optimally.</p></H4>
+
+    import org.apache.spark.ml.classification.MultilayerPerceptronClassifier
+    import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
+    val splits = categories.randomSplit(Array(0.6, 0.4), seed = 1234L)
+    val train = splits(0)
+    val test = splits(1)
+    val layers = Array[Int](2, 1, 3, 3)
+    val trainer = new MultilayerPerceptronClassifier().setLayers(layers).setBlockSize(128).setSeed(1234L).setMaxIter(100)
+    val  c4= categories.withColumn("prediction",'prediction.cast("Double"))
+    val  c5= c4.withColumn("label",'prediction.cast("Double"))
+    val predictionAndLabels = c5 .select("prediction", "label")
+    val evaluator = new MulticlassClassificationEvaluator().setMetricName("accuracy")
+    println(s"Test set accuracy = ${evaluator.evaluate(predictionAndLabels)}")
 
 <H2>CONCLUSION</H2>
 
