@@ -6,8 +6,9 @@
  <H3>Implementation</H3>
  <H3>Result</H3>
  <H3>Conclusion</H3>
- <H3>References</H3>
- <H1>INFORMATION</H1></div>
+ <H3>References</H3></div>
+ 
+ <H1>INFORMATION</H1>
  
  <H2>INTRODUCTION</H2>
 
